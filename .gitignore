@@ -175,11 +175,16 @@ test-results/
 coverage/
 
 # Rasa specific
+my_rasa_bot/
 my_rasa_bot/models/
 my_rasa_bot/.rasa/
 
 # MobSF data
+mobsf/
 mobsf_data/
+
+# Nginx configuration
+nginx/
 
 # Evidence files (sensitive)
 evidence_files/
