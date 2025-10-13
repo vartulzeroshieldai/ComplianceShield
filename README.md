@@ -5,7 +5,7 @@
 ### _Advanced Governance, Risk & Compliance Management System_
 
 ![ZeroShield Logo](logo.png)  
-_ComplianceShield, a part of ZeroShield_
+_ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -63,20 +63,18 @@ ComplianceShield implements enterprise-grade security measures to protect your d
 
 #### Application Security
 
-* **OWASP** Top 10 for API Security **compliance** - ComplianceShield has been thoroughly tested against **OWASP** Top 10 for API Security vulnerabilities for application security
 * **Two-Factor Authentication (2FA)** - Enhanced security for login and signup with 2FA verification
 * **Secure authentication** with JWT tokens and encrypted session management
 * **Input validation** and sanitization for all user inputs to prevent injection attacks
 
 #### Data Privacy & Protection
 
-* **No sensitive data storage** - Compliance evidence, audit data, and Personal Access Tokens submitted to the application are **never stored permanently**
+* **No sensitive data storage** - Website URLs, audit data, and Personal Access Tokens submitted to the application are **never stored permanently**
 * **Temporary processing only** - Sensitive data is used solely to initiate assessments and is immediately purged after analysis completion
 * **Minimal data retention** - Only trivial information is retained for record-keeping:  
    * Project names (for compliance tracking)  
    * Organization names (for project identification)  
    * Assessment results (for compliance reporting)
-* **Encrypted data transmission** using TLS 1.3 for all communications
 * **Secure cloud infrastructure** with regular security audits and compliance certifications
 
 ---
@@ -128,6 +126,8 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 | **SOC2** | ✅ Supported | Complete | Service Organization Controls |
 | **NIST** | ✅ Supported | Complete | Cybersecurity Framework |
 | **HIPAA** | ✅ Supported | Complete | Healthcare Data Protection |
+
+* A total of 44 Frameworks have been included.
 
 ### Risk Management Methodologies
 
@@ -209,7 +209,7 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 **Compliance Management Workflow:**
 
 * Create compliance projects for specific frameworks, upload evidence, track progress, generate compliance reports, and maintain audit readiness.
-* Dashboard instantly shows compliance status, failed controls, and actionable remediation steps.
+* Dashboard instantly shows compliance status, risk levels, and privacy detection overviews.
 
 **Risk Management Workflow:**
 
@@ -265,7 +265,7 @@ A public repository of case studies and technical deep-dives are available below
 
 ## Support
 
-* 📧 Contact: tarun@zeroshield.ai
+* 📧 Contact: contact@cyberultron.com
 * 📧 Support Queries: support@zeroshield.ai
 
 ---
@@ -298,7 +298,7 @@ We welcome contributions from the compliance and security community! Here's how 
 
 ### 📞 Contact
 
-* **General Contact**: tarun@zeroshield.ai
+* **General Contact**: contact@cyberultron.com
 * **Support**: support@zeroshield.ai
 
 ---
@@ -312,62 +312,3 @@ All rights reserved. This software and its documentation are the intellectual pr
  ComplianceShield is a unified, AI-powered compliance management platform from zeroshield.ai. It is an advanced compliance tool built to perform governance, risk, and compliance management for enterprise organizations across multiple frameworks.
 
 zeroshield.ai 
-
-### Topics
-
- python  django  react  compliance  risk-management  governance  privacy-detection  audit-management  iso27001  gdpr  pci-dss  soc2  nist  hipaa  fastapi  compliance-automation  ai-powered  grc-platform 
-
-### Resources
-
- Readme 
-
-###  Uh oh!
-
-There was an error while loading. Please reload this page.
-
-Activity 
-
-### Stars
-
-**0** stars 
-
-### Watchers
-
-**0** watching 
-
-### Forks
-
-**0** forks 
-
- Report repository 
-
-## Releases
-
-No releases published   
-
-## Packages
-
- No packages published   
-
-## Contributors
-
-* @CyberUltron-tarun **CyberUltron-tarun**
-
-## Footer
-
- © 2025 GitHub, Inc. 
-
-### Footer navigation 
-
-* Terms
-* Privacy
-* Security
-* Status
-* Community
-* Docs
-* Contact
-* Manage cookies
-* Do not share my personal information
-
- You can't perform that action at this time.
-
