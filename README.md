@@ -2,7 +2,7 @@
 
 ### _Advanced Governance, Risk & Compliance Management System_
 
-![ZeroShield Logo](front-end/public/logo.svg)  
+![ZeroShield Logo](front-end/public/logo.png)  
 _ComplianceShield, a part of ZeroShield_
 
 **License:** MIT | **Python** | **Django** | **React** | **TypeScript** | **TailwindCSS** | **Docker**
@@ -174,8 +174,8 @@ ComplianceShield includes advanced privacy detection capabilities with automated
 * **PIA Generation**: Automated Privacy Impact Assessment creation
 * **DPIA Analysis**: Data Protection Impact Assessment automation
 * **RoPA Creation**: Records of Processing Activities generation
-* **Code Scanning**: Static analysis for privacy vulnerabilities
-* **Mobile Security**: Mobile application privacy and security analysis
+* **Code Analysis**: Automated code review for privacy vulnerabilities
+* **Application Security**: Comprehensive security analysis for mobile and web applications
 
 ---
 
@@ -236,7 +236,7 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 * **Frontend:** React (TypeScript), Tailwind CSS, Chart.js, React Router
 * **AI Analysis:** LLM/AI-powered compliance analysis and risk assessment
 * **Compliance Analysis Methods:** Automated framework mapping and gap analysis
-* **Database:** PostgreSQL with Redis caching
+* **Database:** Enterprise database with caching layer
 
 ---
 
