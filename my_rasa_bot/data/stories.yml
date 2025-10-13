@@ -1,0 +1,58 @@
+version: "3.1"
+stories:
+
+- story: greet and ask about GDPR
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: gdpr
+    - action: utter_gdpr
+
+- story: ask about ISO 27001 and say thanks
+  steps:
+    - intent: iso_27001
+    - action: utter_iso_27001
+    - intent: thankyou
+    - action: utter_thankyou
+
+- story: bot challenge and goodbye
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: ask about GDPR and then HIPAA
+  steps:
+    - intent: gdpr
+    - action: utter_gdpr
+    - intent: hipaa
+    - action: utter_hipaa
+
+- story: ask about ISO 27001 then ISO 27002
+  steps:
+    - intent: iso_27001
+    - action: utter_iso_27001
+    - intent: iso_27002
+    - action: utter_iso_27002
+
+- story: ask about PCI DSS then HITRUST
+  steps:
+    - intent: pci_dss
+    - action: utter_pci_dss
+    - intent: hitrust
+    - action: utter_hitrust
+
+- story: ask about NIST CSF then NIST SP
+  steps:
+    - intent: nist_csf
+    - action: utter_nist_csf
+    - intent: nist_sp
+    - action: utter_nist_sp
+
+- story: ask about EU AI Act and NIST AI RMF
+  steps:
+    - intent: eu_ai_act
+    - action: utter_eu_ai_act
+    - intent: nist_ai_rmf
+    - action: utter_nist_ai_rmf

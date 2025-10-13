@@ -1,0 +1,500 @@
+Clause,Reference,Description,Audit Question,Evidence Examples,Findings,Status
+Access Control Policy,1,"Access control policy defines role‑based access, least privilege, and approval processes for CDE systems and data. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is access control policy defined and followed?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Policy, RBAC matrices, approval records",,
+Access Provisioning,2,"Access is granted based on job role and business need with documented approvals and ticketing. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is access provisioned via documented approvals?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","IAM tickets, approvals, JML workflow",,
+Access Revocation,3,"Access is promptly revoked for leavers/role changes per JML process; accounts are disabled/removed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is access promptly revoked upon termination or transfer?
+2. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+3. Are signature/engine updates automatic and monitored for failures?
+4. Are periodic scans scheduled and findings remediated promptly?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","HR feeds, deprovisioning logs",,
+Anti-Spoofing Controls,4,"Ingress and egress anti-spoofing is configured to block private/reserved source addresses and forged traffic. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are anti-spoofing controls enabled for inbound and outbound interfaces?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Router/NSC configs, test logs, pen test results",,
+ASV Scans (if applicable),5,"External vulnerability scans by an Approved Scanning Vendor (ASV) are performed as required by brand/acquirer. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are ASV scans completed and passing?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","ASV reports, attestation",,
+Auth Session Management,6,"Sessions are limited by timeout and re‑authentication requirements; failed attempts are locked out. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are session controls and lockouts configured?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","App configs, IdP settings, screenshots",,
+Awareness and Training,7,"Security awareness and role‑based training are provided to personnel with access to the CDE or processes impacting PCI DSS. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is training delivered and tracked for relevant roles?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","LMS records, training materials",,
+Baseline Hardening,8,"Systems are built from hardened baselines that remove unnecessary services, accounts, and components prior to deployment. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are hardened baselines used for builds and verified before go‑live?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Build docs, gold images, baseline checklists",,
+Certificate and Key Management,9,"Only trusted keys/certificates are used; certificate lifecycle (issuance, renewal, revocation) is managed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are certs trusted and lifecycle-managed?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","PKI inventories, cert monitoring reports",,
+Change Default Credentials,10,"Vendor default passwords/accounts/configurations are changed or disabled prior to connecting systems to the network. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Were all default credentials/settings changed before deployment?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Build logs, config evidence, scanner results",,
+Change Management,11,"Changes are authorized, tested, and approved with segregation of duties between dev/test/prod. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are changes controlled with SoD enforced?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Change tickets, approvals, access lists",,
+Change‑Triggered Testing,12,"Security testing follows significant changes to confirm controls remain effective post‑change. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is testing performed after significant changes?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Change records, test evidence",,
+Comprehensive Log Sources,13,"All in‑scope systems, applications, and security tools send logs to a centralized platform. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are all relevant log sources onboarded?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+5. Are logs protected from alteration and retained per policy with time synchronization in place?
+6. Are alerts triaged with documented investigation and closure?
+7. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+8. Are privileged accounts separated, monitored, and vaulted where applicable?","SIEM source lists, onboarding tickets",,
+Configuration Governance,14,"Secure configuration policies/standards define hardening requirements for all in-scope platforms and are kept current with industry benchmarks (e.g., CIS). This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are secure configuration policies defined, current, and referenced by operations?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+5. Are privileged accounts separated, monitored, and vaulted where applicable?
+6. Is access promptly revoked upon termination or role change?","Hardening standards, policy revisions, communications",,
+Configuration Monitoring,15,"Continuous configuration monitoring detects and alerts on drift from hardened baselines. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is configuration drift monitored and remediated?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Compliance tool alerts, SIEM events",,
+Copy/Export Controls for PAN,16,"Copying/exporting full PAN is restricted, justified, and logged to prevent unauthorized dissemination. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is copying/exporting PAN controlled and logged?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+6. Are logs protected from alteration and retained per policy with time synchronization in place?
+7. Are alerts triaged with documented investigation and closure?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","DLP, endpoint controls, audit logs",,
+Data Retention Limits,17,"Retention policies limit storage of CHD to business/legal needs for defined durations; unnecessary data is purged securely. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is retention limited and are purges performed and logged?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Retention policy, purge logs, storage scans",,
+Data-Flow Diagram Coverage,18,"Data-flow diagrams identify all account data flows (CHD/SAD), protocols, and storage/transit points to ensure scoping accuracy and control design. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are data-flow diagrams maintained and accurate for all account data paths?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+5. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+6. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+7. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+8. Are privileged accounts separated, monitored, and vaulted where applicable?","DFDs, architecture docs, integration inventories",,
+Default Deny Posture,19,"NSCs enforce a deny-by-default posture; only explicitly approved services and ports are allowed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Do NSC rules implement deny-by-default with explicit allow rules?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Policy exports, firewall screenshots, config backups",,
+Device Inventory,20,"Devices that capture or store CHD are inventoried and physically protected against tampering/substitution. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a device inventory with tamper controls?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?
+5. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?
+6. Is visitor access authorized, escorted as needed, and logged with retention?
+7. Is media containing CHD secured in storage/transport and destroyed per policy?","Asset lists, inspection records",,
+Disable Legacy Protocols,21,"Legacy/cleartext protocols (e.g., Telnet/FTP) are disabled or tightly controlled with compensating controls. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are legacy protocols disabled or strongly controlled?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Scanner results, firewall rules, exceptions",,
+Enable Only Required Services,22,"Only business-required services, protocols, and daemons are enabled; periodic reviews verify minimal attack surface. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are only required services enabled and reviewed periodically?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Service lists, systemd configs, reviews",,
+Encrypt Non‑Console Admin,23,"All remote administrative access employs strong cryptography and modern protocols. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is non‑console administration encrypted with strong protocols?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","SSH/TLS configs, port scans, bastion settings",,
+End‑User Messaging Controls,24,"CHD/SAD is not sent via email, chat, SMS, or other messaging channels unless strongly encrypted and authorized. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is CHD/SAD prohibited in end‑user messaging or strongly encrypted when approved?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Messaging policy, DLP rules, samples",,
+Facility Security,25,"Physical security controls protect facilities housing CDE systems (badges, mantraps, CCTV, guards). This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are facilities with CDE adequately secured?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?
+5. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?
+6. Is visitor access authorized, escorted as needed, and logged with retention?
+7. Is media containing CHD secured in storage/transport and destroyed per policy?","Access control system configs, floor plans",,
+Incident Response,26,"An incident response plan defines detection, triage, containment, eradication, recovery, and post‑incident review for CHD/SAD incidents. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a tested incident response plan for PCI incidents?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","IR plan, test exercises, post‑mortems",,
+Industry Benchmarks,27,"Configurations align with recognized benchmarks and are continuously monitored for drift. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Do configurations align with CIS/NIST baselines and is drift monitored?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","CIS assessment reports, compliance tools output",,
+Information Security Policy,28,"An enterprise security policy establishes governance, scope, roles, and management commitment for PCI DSS. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a governing information security policy approved by management?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+5. Are privileged accounts separated, monitored, and vaulted where applicable?
+6. Is access promptly revoked upon termination or role change?","Policy document, approvals",,
+Insecure Protocol Handling,29,"Insecure or legacy protocols are disabled or wrapped with compensating security (e.g., TLS tunnels) with documented justification. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are insecure protocols removed or strongly secured with documented justification?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Service inventories, exception registers",,
+Internal/External Vulnerability Scans,30,"Authenticated internal and external vulnerability scans run at defined intervals and after significant changes. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are internal/external scans run and tracked?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Scan schedules, results, remediation tickets",,
+Inventory and Roles,31,"An accurate inventory of system components in scope is maintained; each has an assigned business/technical role. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is the in‑scope inventory current and are roles assigned?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+5. Are privileged accounts separated, monitored, and vaulted where applicable?
+6. Is access promptly revoked upon termination or role change?","Asset register, CMDB, inventory exports",,
+Key Lifecycle Management,32,"Key lifecycle processes cover generation, distribution, rotation, revocation, retirement, and destruction with dual control/split knowledge as applicable. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is the full key lifecycle defined and enforced?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","KMS procedures, custodian assignments",,
+Key Protection,33,"Cryptographic keys are generated, stored, accessed, and rotated securely with least privilege and logging. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are keys protected against disclosure and misuse?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+6. Are logs protected from alteration and retained per policy with time synchronization in place?
+7. Are alerts triaged with documented investigation and closure?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","HSM configs, key access logs, rotation records",,
+Log Retention and Integrity,34,"Logs are retained per policy and protected from alteration/deletion; access to logs is restricted. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are logs retained and integrity‑protected?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","WORM storage, access lists, retention configs",,
+Logging Standards,35,"Logging requirements define events, time sync, retention, and protection for logs across systems. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are logging standards defined and applied?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Logging policy, NTP configs",,
+Malware Policy and Scope,36,"Malware protection strategy is documented, defines scope, frequency, and responsibilities across platforms. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a malware protection policy and scope definition?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+5. Are signature/engine updates automatic and monitored for failures?
+6. Are periodic scans scheduled and findings remediated promptly?
+7. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+8. Are privileged accounts separated, monitored, and vaulted where applicable?","Policy, RACI, platform coverage matrix",,
+Malware Tooling Coverage,37,"AV/EDR solutions are deployed on commonly affected systems and tuned against false positives/negatives. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is AV/EDR deployed and effective on all applicable systems?
+2. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+3. Are signature/engine updates automatic and monitored for failures?
+4. Are periodic scans scheduled and findings remediated promptly?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","EDR console coverage reports, host lists",,
+Mask PAN on Display,38,"Displayed PAN is masked (first 6/last 4) except for users with documented business need. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is PAN masked on display and access to full PAN restricted?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Screenshots, RBAC, UI configs",,
+Media Controls,39,"Media containing CHD is labeled, stored securely, transported with chain‑of‑custody, and destroyed securely. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are media handling and destruction controls enforced?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?
+5. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?
+6. Is visitor access authorized, escorted as needed, and logged with retention?
+7. Is media containing CHD secured in storage/transport and destroyed per policy?","Media logs, destruction certs",,
+Metrics and Governance,40,"Security metrics/KPIs are defined and reported to leadership to drive accountability for PCI DSS controls. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are PCI DSS metrics tracked and reviewed?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","KPI dashboards, meeting minutes",,
+Monitoring and Alerting,41,"Security events are monitored with use‑cases and correlation rules; alerts are triaged and investigated. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are security alerts generated and triaged?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","SIEM rules, alert tickets, runbooks",,
+Network Diagram Coverage,42,"A current network diagram depicts all CDE components, interconnections, trust boundaries, and external connections. Diagrams are kept in sync with change management. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a current network diagram showing all CDE connections and boundaries?
+2. Are network and data‑flow diagrams current, accurate, and aligned to the CMDB/change records?
+3. Do diagrams clearly show CDE boundaries, trust zones, and third‑party connections?
+4. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+5. Are privileged accounts separated, monitored, and vaulted where applicable?
+6. Is access promptly revoked upon termination or role change?","Network diagrams, CMDB exports, change tickets",,
+No Internal IP Disclosure,43,"Devices do not disclose internal IP addressing to untrusted networks; NAT, proxies, or masking mechanisms are in place. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are internal addresses prevented from exposure to untrusted networks?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Proxy/NAT configs, headers inspection evidence",,
+NSC Policies and Procedures,44,"Documented policies and operational procedures govern the selection, configuration, and maintenance of network security controls (NSCs), including firewalls, gateways, and cloud equivalents. Policies are reviewed periodically and communicated to responsible personnel. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are NSC policies documented, current, in use, and understood by relevant staff?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Security policy, NSC SOPs, revision history, staff acknowledgments",,
+Password/Secret Policy,45,"Credential policies define length, complexity, rotation, and storage/handling of secrets and API keys. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are credential policies enforced and effective?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is multi‑factor authentication enforced for administrative and remote access as required?
+6. Are credential policies (length, complexity, rotation) enforced and monitored?
+7. Are session timeout and lockout settings aligned to policy and tested?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","Policy, directory settings, vault evidence",,
+Patch Management Policy,46,"Vulnerability/patch management defines timelines based on risk rating, supported by inventory and ownership. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is there a risk‑based patch policy applied consistently?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Policy, SLAs, approvals",,
+Penetration Testing,47,"Network and application penetration tests cover segmentation controls and critical paths; findings are remediated. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are pen tests performed with segmentation validation?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?","Pen test reports, scope docs",,
+Periodic Access Reviews,48,"User access to CDE systems and data is reviewed at a defined cadence; inappropriate access is removed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are periodic access reviews performed and tracked?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Review logs, recertification outputs",,
+Periodic Scans,49,"Scheduled full scans run at defined intervals with results triaged and remediated. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are scheduled scans executed and findings remediated?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?","Scan schedules, results, tickets",,
+Personal Firewall on Portable Devices,50,"Portable devices that access the CDE or connect to untrusted networks have host-based firewalls enabled and managed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Do portable devices enforce personal firewall settings?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+6. Are signature/engine updates automatic and monitored for failures?
+7. Are periodic scans scheduled and findings remediated promptly?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","MDM baselines, device compliance reports",,
+Policy Exception Management,51,"Exceptions to policy are risk‑assessed, time‑bound, approved by management, and reviewed periodically. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are exceptions documented with risk and expiry?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Exception register, approvals",,
+Privileged Access Minimization,52,"Administrative privileges are minimized, separated from user accounts, and monitored. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is privileged access minimized and monitored?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Privileged account inventories, PAM logs",,
+Prohibit Storage of SAD,53,"Sensitive authentication data (CVV, PINs, track data) is never stored post‑authorization, regardless of encryption. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is SAD storage prohibited and verified through scans/queries?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is multi‑factor authentication enforced for administrative and remote access as required?
+6. Are credential policies (length, complexity, rotation) enforced and monitored?
+7. Are session timeout and lockout settings aligned to policy and tested?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","DB queries, DLP scans, application configs",,
+Real‑time Protection,54,"Real‑time scanning and tamper protection are enabled with exceptions documented and reviewed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is active protection enabled and exceptions justified?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?","Config screenshots, exception register",,
+Render PAN Unreadable at Rest,55,"Stored PAN is unreadable via strong cryptography, truncation, hashing, or tokenization. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is PAN unreadable wherever stored?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Encryption configs, tokenization evidence",,
+Restrict Inbound Traffic,56,"Inbound connections from untrusted networks to the CDE are explicitly authorized and limited to business-justified services. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is inbound traffic to the CDE restricted to approved, documented flows?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Firewall rule sets, allowlists, approvals",,
+Restrict Outbound Traffic,57,"Outbound connections from the CDE are limited to business need and monitored to prevent data exfiltration. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is outbound traffic from the CDE limited and approved?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+6. Are logs protected from alteration and retained per policy with time synchronization in place?
+7. Are alerts triaged with documented investigation and closure?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","Egress ACLs, firewall rules, DLP alerts",,
+Risk Assessment,58,"Formal risk assessments identify threats to the CDE and inform control selection and exceptions. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are periodic risk assessments performed and acted upon?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Risk reports, treatment plans",,
+Rule Set Review Cadence,59,"NSC rule sets are reviewed at least every six months to confirm necessity and accuracy; unused rules are removed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are NSC rule sets reviewed on a 6‑month cadence with outcomes tracked?
+2. Do rule sets enforce a deny‑by‑default posture with business‑justified allow rules?
+3. Are anti‑spoofing protections enabled and validated on all relevant interfaces?
+4. Are rule sets reviewed at least semiannually and stale rules removed?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Review records, change tickets, sign-offs",,
+Secure Coding Practices,60,"Developers follow secure coding standards (validation, auth, session mgmt, error handling) and receive regular training. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Do devs follow secure coding and receive training?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Standards, training logs, code review checklists",,
+Secure SDLC,61,"Software is developed under a secure SDLC with defined security requirements, design reviews, and threat modeling. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is a secure SDLC implemented and followed?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","SDLC artifacts, design review records",,
+Secure System Parameters,62,"Security parameters (e.g., logging, banner warnings, session limits) are configured to prevent misuse and strengthen posture. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are security parameters configured per standard across platforms?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+6. Are logs protected from alteration and retained per policy with time synchronization in place?
+7. Are alerts triaged with documented investigation and closure?
+8. Is access granted on least‑privilege basis with documented approvals and periodic reviews?","sysctl configs, GPOs, OS profiles",,
+Security Testing,63,"Applications undergo SAST/DAST, dependency analysis, and penetration testing; findings are remediated prior to release. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are apps security‑tested and findings closed before release?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?","SAST/DAST reports, pen test results",,
+Service/Shared Accounts,64,"Service accounts are tightly controlled with managed secrets, least privilege, and regular review. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are service accounts governed and rotated?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?","Vault logs, account inventories",,
+Signature/Engine Updates,65,"Malware signatures and engines update automatically and are monitored for failures. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are definitions/engines updating and monitored?
+2. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+3. Are signature/engine updates automatic and monitored for failures?
+4. Are periodic scans scheduled and findings remediated promptly?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Update logs, console alerts",,
+Special‑Case Systems,66,"Systems not commonly affected by malware are periodically assessed for risk and compensating controls. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are uncommon systems risk‑assessed and controlled?
+2. Is AV/EDR deployed on all applicable systems with real‑time protection enabled?
+3. Are signature/engine updates automatic and monitored for failures?
+4. Are periodic scans scheduled and findings remediated promptly?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Risk assessments, architecture notes",,
+Strong Authentication,67,"Strong authentication (including MFA where required) protects access to the CDE and administrative functions. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is MFA enforced for CDE and admin access?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","MFA configs, auth policy, logs",,
+Strong Cryptography in Transit,68,"PAN is encrypted with strong cryptography (e.g., TLS 1.2+) during transmission; weak ciphers/protocols are disabled. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is PAN always encrypted in transit using strong versions/ciphers?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","TLS scans, cipher inventories, configs",,
+Third‑Party Service Providers (TPSPs) Oversight,69,"Contracts define PCI DSS responsibilities; TPSP compliance status is monitored at least annually, and a responsibility matrix is maintained. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are TPSP responsibilities defined and compliance status monitored?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?
+5. Do contracts define PCI responsibilities and is TPSP compliance status reviewed at least annually?
+6. Is a responsibility matrix maintained for all TPSPs in scope?","Contracts/SLAs, AoCs, responsibility matrix",,
+Time Synchronization,70,"System clocks are synchronized to reliable time sources to ensure accurate log correlation. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are system clocks synchronized consistently?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","NTP settings, drift reports",,
+Timely Patching,71,"Vendor security patches are applied in a timely manner per risk, with exceptions documented and tracked. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are patches applied within policy timelines?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Patch reports, exception tickets",,
+Transmission Policies,72,"Policies define protections for PAN in transit over open/public networks and internal untrusted paths. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are transmission security policies defined and communicated?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Policy docs, training records",,
+Unique IDs,73,"All users are assigned unique IDs to ensure accountability for actions on CDE systems. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Do all users have unique, non‑shared accounts?
+2. Is multi‑factor authentication enforced for administrative and remote access as required?
+3. Are credential policies (length, complexity, rotation) enforced and monitored?
+4. Are session timeout and lockout settings aligned to policy and tested?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?","Account lists, login configs",,
+Visitor Management,74,"Visitor access is authorized, logged, escorted as needed, and logs are retained. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is visitor access controlled and logged?
+2. Are all relevant log sources onboarded to the SIEM with defined parsing/use‑cases?
+3. Are logs protected from alteration and retained per policy with time synchronization in place?
+4. Are alerts triaged with documented investigation and closure?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Are physical access controls (badging, CCTV) enforced for CDE areas with retained logs?","Visitor logs, badges, procedures",,
+Wireless Connected to CDE,75,"Wireless segments connected to or impacting the CDE are identified, documented, and protected with strong security controls. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are wireless environments touching the CDE documented and secured?
+2. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+3. Are privileged accounts separated, monitored, and vaulted where applicable?
+4. Is access promptly revoked upon termination or role change?
+5. Do wireless networks use strong encryption (WPA2/WPA3) with non‑default keys?
+6. Are rogue wireless scans performed and findings addressed?","Wireless inventories, controller configs, rogue AP scans",,
+Wireless Encryption,76,"Wireless networks transmitting CHD use strong encryption (WPA2/WPA3) and unique keys; defaults are changed. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Is wireless encryption strong and keys non‑default?
+2. Is strong cryptography used with approved algorithms, key lengths, and protocol versions?
+3. Is key management enforced (generation, storage, rotation, revocation) per documented procedures?
+4. Is primary account number (PAN) masked on display and rendered unreadable at rest where applicable?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Do wireless networks use strong encryption (WPA2/WPA3) with non‑default keys?","WLAN controller configs, key rotation logs",,
+Wireless Scanning,77,"Wireless networks are scanned for rogue devices; detections are investigated and mitigated. This requirement is essential for ensuring PCI DSS v4.0.1 compliance. It reduces the risk of unauthorized access, enforces consistent security practices, and provides assurance that controls are implemented and operating effectively. Auditors will expect documented policies, technical enforcement, monitoring evidence, and validation that the control remains effective over time.","1. Are rogue wireless scans conducted and logged?
+2. Are vulnerabilities identified, risk‑ranked, and remediated within defined SLAs?
+3. Are authenticated internal/external scans and penetration tests performed per schedule and after changes?
+4. Are exceptions to patch timelines documented with compensating controls?
+5. Is access granted on least‑privilege basis with documented approvals and periodic reviews?
+6. Are privileged accounts separated, monitored, and vaulted where applicable?
+7. Is access promptly revoked upon termination or role change?
+8. Do wireless networks use strong encryption (WPA2/WPA3) with non‑default keys?","Wireless scan results, incident records",,

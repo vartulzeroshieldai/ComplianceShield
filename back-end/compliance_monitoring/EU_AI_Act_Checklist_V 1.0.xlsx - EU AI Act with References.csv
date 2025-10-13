@@ -1,0 +1,49 @@
+Clause,Reference,Description,Initial Assessment Points,Evidence / Artifacts,Findings,Status
+Risk Management System,Article 9,"Ensure a continuous and iterative risk management process is established and maintained throughout the lifecycle of the AI system. It should cover identification, analysis, mitigation, and monitoring of risks.","1. Has a risk management policy been defined and approved?
+2. Are risks identified and assessed throughout the AI lifecycle?
+3. Are mitigation strategies documented and implemented?
+4. Is there ongoing monitoring and review of risks?","Risk management policy, risk registers, monitoring reports, meeting minutes",,
+Data Governance,Article 10,"Training, validation, and testing datasets must be relevant, representative, and free from errors. Proper governance must ensure bias mitigation, traceability, and lawful data handling.","1. Are datasets documented with sources and collection methods?
+2. Has dataset representativeness been validated?
+3. Are bias detection and mitigation processes in place?
+4. Is personal data handled in compliance with GDPR or equivalent?","Data sheets, bias testing reports, data governance policy, GDPR compliance logs",,
+Transparency & Information to Users,Article 13,"The AI system must provide clear instructions for use, purpose, limitations, and risks to ensure that users are fully informed and aware of its capabilities and constraints.","1. Are user manuals and instructions available and accessible?
+2. Do the manuals include system limitations and risks?
+3. Are outputs explainable and interpretable for end-users?","User manuals, transparency disclosures, training materials",,
+Human Oversight,Article 14,"Appropriate human oversight must be in place to prevent or minimize risks. Oversight should allow operators to intervene, override, or shut down the AI system when necessary.","1. Are human-in-the-loop or on-the-loop mechanisms documented?
+2. Can operators override or stop the AI system when needed?
+3. Are operators trained on system risks and limitations?
+4. Is oversight effectiveness regularly tested?","Oversight policy, training records, test reports, incident logs",,
+Technical Robustness & Safety,Article 15,"The AI system must be accurate, resilient, and secure against manipulation. It should be tested under representative conditions and have measures to address failures or attacks.","1. Has the AI system been tested for robustness under diverse scenarios?
+2. Are cybersecurity measures implemented and validated?
+3. Are accuracy thresholds defined and monitored?
+4. Are fail-safe mechanisms documented and operational?","Testing reports, cybersecurity assessments, system logs, incident response plans",,
+Logging & Record-Keeping,Article 12,"Automatic logging must capture inputs, outputs, and relevant decisions. Logs should be tamper-proof, retained, and made available for audits when required.","1. Does the system generate logs for all critical operations?
+2. Are logs secured against tampering or deletion?
+3. Is there a retention policy for logs?
+4. Are logs regularly reviewed during audits?","System logs, logging policy, retention schedules, audit reports",,
+Post-Market Monitoring,Article 61,"Providers must implement a monitoring plan to assess real-world performance, report incidents, and ensure corrective measures are taken when risks emerge.","1. Is there a documented post-market monitoring plan?
+2. Are incidents reported and tracked systematically?
+3. Are corrective actions defined and implemented when needed?
+4. Are monitoring results reviewed by management?","Monitoring plans, incident reports, corrective action records, review meeting minutes",,
+Conformity Assessment & CE Marking,Articles 43–49,High-risk AI systems must undergo conformity assessment (internal or via Notified Body where applicable) and obtain CE marking before market release.,"1. Has a conformity assessment been conducted?
+2. Was a Notified Body involved where required?
+3. Has a Declaration of Conformity been prepared?
+4. Is CE marking affixed and documented?","Conformity assessment reports, Declaration of Conformity, CE marking records",,
+Prohibited AI Practices,Article 5,"Certain AI practices are banned outright under the EU AI Act due to unacceptable risks, such as social scoring, manipulative behavior, and most real-time biometric identification in public spaces.","1. Does the AI system involve social scoring or manipulation of vulnerable groups?
+2. Is the system used for real-time biometric identification in public places?
+3. Are there controls to prevent deployment of prohibited practices?","System design documents, deployment restrictions, compliance statements",,
+General Purpose AI (GPAI) Compliance,Articles 52–55,"General-purpose AI models must meet transparency, documentation, and risk management requirements. For powerful GPAI, enhanced obligations apply.","1. Has technical documentation for the GPAI model been prepared and published?
+2. Is there a summary of training data sources?
+3. Has a risk assessment been conducted for downstream uses?
+4. Are safeguards in place for misuse prevention?","Technical documentation, model cards, risk assessment reports, usage policies",,
+Transparency Obligations for Limited Risk AI,Article 52,Limited-risk AI systems must inform users that they are interacting with AI. This ensures transparency and user awareness.,"1. Are users clearly informed when interacting with AI (e.g., chatbots)?
+2. Are deepfakes or synthetic media disclosed to audiences?
+3. Are disclosures accessible and understandable to all user groups?","User interface screenshots, disclosure policies, transparency notices",,
+Minimal Risk AI and Voluntary Codes,Recital 81,"Minimal-risk AI systems have no mandatory requirements under the Act, but providers may adopt voluntary codes of conduct to demonstrate trustworthiness.","1. Has the provider adopted voluntary best practices or ethical codes?
+2. Are there internal policies promoting transparency and fairness?
+3. Is there evidence of stakeholder engagement on responsible AI?","Voluntary code of conduct, internal policies, meeting minutes with stakeholders",,
+Enforcement & Incident Reporting,Articles 62–65,Providers and deployers must cooperate with national supervisory authorities and the European AI Office. Serious incidents must be reported promptly.,"1. Are there procedures for reporting incidents to supervisory authorities?
+2. Is a designated compliance officer or responsible person assigned?
+3. Are communication protocols with regulators established?
+4. Are reporting timelines aligned with legal requirements?","Incident reporting templates, compliance officer appointment letters, regulator correspondence",,

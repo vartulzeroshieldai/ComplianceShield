@@ -1,0 +1,49 @@
+Reference,Section,Clause,Description,Initial Assessment Points,Findings,Status
+Schedule 1 – Objects & Scope,Schedule 1,Objects & Scope,"Expansion of Privacy Act objects to recognise privacy as a fundamental right, with explicit coverage of automated decision-making systems using personal data.","1. Has the organisation updated privacy policies to reflect privacy as a fundamental right?
+2. Are privacy impact assessments conducted for automated decision-making systems?
+3. Are individuals informed when automated decisions affect them?",,
+Schedule 1 – APP Codes,"Schedule 1
+",APP Codes,The Commissioner may develop APP Codes or Temporary APP Codes at the Minister’s direction. These can impose additional or urgent obligations on organisations beyond existing APPs.,"1. Is the organisation monitoring announcements of APP Codes?
+2. Are compliance processes updated when new codes are introduced?
+3. Is there an internal escalation process to address Temporary APP Code requirements promptly?",,
+Schedule 1 – Emergency Declarations,"Schedule 1
+",Emergency Declarations,"Minister may issue emergency declarations permitting collection, use, or disclosure of personal data during disasters and emergencies to protect life, health, or safety.","1. Are procedures in place to implement emergency data collection rules?
+2. Is compliance tracked and reported when emergency declarations are used?
+3. Are employees trained on limitations of emergency data handling?",,
+Schedule 1 – Children’s Online Privacy Code,Schedule 1,Children’s Online Privacy Code,"Mandatory Children’s Online Privacy Code for online services reasonably likely to be accessed by children (<18). Requires stricter consent, child-appropriate notices, and limits on profiling/targeted advertising.","1. Does the organisation provide child-facing online services?
+2. Are parental/guardian consent mechanisms implemented?
+3. Are child-friendly privacy notices provided?
+4. Is profiling and targeted advertising towards children disabled?",,
+"Schedule 1 – Security, Retention & Destruction",Schedule 1,"Security, Retention & Destruction","Organisations must implement technical and organisational measures to protect data against misuse, interference, or loss. Retention must be limited to necessary periods, and secure destruction/anonymisation applied.","1. Are documented security measures aligned with industry standards?
+2. Are retention schedules defined and enforced?
+3. Is data securely deleted or anonymised when no longer required?
+4. Are disposal methods periodically tested and audited?",,
+Schedule 1 – Overseas Data Flows,Schedule 1,Overseas Data Flows,"Cross-border transfers allowed only where the recipient country, organisation, or binding scheme provides comparable privacy protection. Australian entity remains accountable for compliance.","1. Are all overseas transfers assessed for adequacy of protection?
+2. Are binding contractual clauses included in transfer agreements?
+3. Is compliance of overseas partners monitored?",,
+Schedule 1 – Eligible Data Breaches,Schedule 1,Eligible Data Breaches,"Minister may declare circumstances where breached data can be lawfully collected, used, or disclosed to reduce harm. Expanded breach reporting obligations apply to all entities.","1. Are all breaches assessed under new eligibility rules?
+2. Are breach notifications prepared and submitted within required timeframes?
+3. Are logs of all breaches (notifiable and non-notifiable) maintained?",,
+Schedule 1 – Penalties & Enforcement,Schedule 1,Penalties & Enforcement,"New penalties for privacy breaches: ‘interference with privacy’ vs. ‘serious interference with privacy’. Serious breaches attract penalties up to 2,000 penalty units. Federal Court can impose remedies.","1. Are compliance teams aware of new penalty categories?
+2. Are serious breaches escalated to leadership and legal teams?
+3. Is a remediation plan in place to comply with court-ordered corrective measures?",,
+Schedule 1 – Public Inquiries & Investigations,Schedule 1,Public Inquiries & Investigations,"Commissioner may conduct public inquiries on privacy matters, and has stronger investigative powers to make binding determinations to reduce harm.","1. Is the organisation prepared to provide evidence at public inquiries?
+2. Are processes documented to comply with binding determinations?",,
+Schedule 1 – Annual Reports & EDR Schemes,Schedule 1,Annual Reports & EDR Schemes,Commissioner required to publish annual enforcement and compliance reports. External dispute resolution (EDR) schemes enhanced for privacy complaints.,"1. Is the organisation monitoring issues that could appear in annual Commissioner reports?
+2. Are complaint handling procedures integrated with EDR schemes?",,
+Schedule 2 – Statutory Tort,"Schedule 2
+",Statutory Tort,"Establishes a statutory tort for serious invasions of privacy, including intrusion into seclusion and misuse of private information.","1. Has risk assessment been updated for potential tort liability?
+2. Are monitoring systems in place to detect and prevent privacy intrusions?
+3. Is legal counsel prepared to handle tort litigation?",,
+Schedule 2 – Remedies,Schedule 2,Remedies,"Courts may grant injunctions, award damages (including aggravated), and require disgorgement of profits gained from misuse of personal data.","1. Is the organisation prepared for financial and reputational impact of damages awards?
+2. Are insurance policies reviewed for privacy tort liability coverage?",,
+Schedule 2 – Defences,Schedule 2,Defences,"Recognised defences to tort liability include public interest, consent, and lawful authority.","1. Are privacy practices reviewed to ensure defensibility in public interest cases?
+2. Is consent clearly documented and retained as evidence?",,
+Schedule 3 – Doxxing Offences,"Schedule 3
+",Doxxing Offences,"New criminal offences for doxxing: publishing personal/private information with intent to harm, harass, or distress another individual.","1. Are policies updated to prohibit doxxing by staff?
+2. Are employees trained to identify and avoid harmful disclosures?
+3. Is disciplinary action defined for doxxing behaviour?",,
+Schedule 3 – Aggravated Doxxing,Schedule 3,Aggravated Doxxing,Aggravated offences apply if the victim is a child or if actual harm results from doxxing.,"1. Are stricter safeguards applied when handling children’s data?
+2. Are controls in place to prevent disclosures that could cause harm?",,
+Schedule 3 – Review of Doxxing Provisions,Schedule 3,Review of Doxxing Provisions,Law requires review of the operation of doxxing offences within 24 months of commencement.,"1. Is the organisation maintaining compliance records for review?
+2. Is data available to demonstrate alignment with anti-doxxing provisions?",,
