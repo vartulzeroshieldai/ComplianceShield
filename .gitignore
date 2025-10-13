@@ -186,6 +186,10 @@ mobsf_data/
 # Nginx configuration
 nginx/
 
+# Backend and Frontend folders
+back-end/
+front-end/
+
 # Evidence files (sensitive)
 evidence_files/
 media/evidence_files/
