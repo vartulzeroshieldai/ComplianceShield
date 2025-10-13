@@ -2,7 +2,7 @@
 
 ### _Advanced Governance, Risk & Compliance Management System_
 
-![ZeroShield Logo](front-end/public/logo.png)  
+![ZeroShield Logo](front-end/src/data/logo.png)  
 _ComplianceShield, a part of ZeroShield_
 
 **License:** MIT | **Python** | **Django** | **React** | **TypeScript** | **TailwindCSS** | **Docker**
