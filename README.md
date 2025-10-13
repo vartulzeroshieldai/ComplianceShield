@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🛡️ ComplianceShield
 
 ### _Advanced Governance, Risk & Compliance Management System_
@@ -5,9 +7,17 @@
 ![ZeroShield Logo](logo.png)  
 _ComplianceShield, a part of ZeroShield_
 
-**License:** MIT | **Python** | **Django** | **React** | **TypeScript** | **TailwindCSS** | **Docker**
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Django](https://img.shields.io/badge/Django-4.0+-green.svg)
+![React](https://img.shields.io/badge/React-18+-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-20.0+-blue.svg)
 
 ## 🚀 Sign Up for ComplianceShield
+
+</div>
 
 ## Table of Contents
 
