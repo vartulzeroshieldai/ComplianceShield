@@ -105,7 +105,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 
 ## Key Capabilities
 
-* Automated Compliance Framework Management for multiple standards (ISO 27001, GDPR, PCI DSS, SOC2, NIST, HIPAA)
+* Automated Compliance Framework Management for multiple standards (ISO 27001, ISO 27002, ISO 27017, ISO 27018, ISO 27799, ISO 42001, GDPR, PCI DSS, SOC2, NIST, HIPAA, China Generative AI Measures, COBIT, DORA, DPDPA, DPF, ePrivacy Directive, EU AI Act, IEEE EAD, LGPD, OECD AI Principles, PIPEDA, PIPL, AUD, CIS CAS, CPPA, CSA STAR, FEAT Principles, GLBA, HITRUST CSF, NIST AI RMF, NIST CSF, NIST SP800, PDPA Singapore, PDPA Thailand, PDPL Saudi, PDPL Vietnam, POPIA, RBI CS, APPI, US State Privacy Laws, SEBI CSCRF, WHO AI Governance)
 * Advanced Risk Management with automated risk identification and scoring
 * Privacy Detection & Analysis with automated PIA, DPIA, and RoPA generation
 * Evidence Management with approval workflows and compliance mapping
@@ -127,7 +127,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 | **NIST** | ✅ Supported | Complete | Cybersecurity Framework |
 | **HIPAA** | ✅ Supported | Complete | Healthcare Data Protection |
 
-* A total of 44 Frameworks have been included.
+* +37 more frameworks.
 
 ### Risk Management Methodologies
 
@@ -191,14 +191,14 @@ ComplianceShield includes advanced privacy detection capabilities with automated
 
 ## Compliance Mapping
 
-| Compliance Area | ISO 27001 | GDPR | PCI DSS | SOC2 | NIST | HIPAA |
-|-----------------|-----------|------|---------|------|------|-------|
-| Data Protection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Access Control | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Risk Management | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Incident Response | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Audit & Monitoring | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Privacy Controls | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Compliance Area | ISO 27001 | GDPR | PCI DSS | SOC2 | NIST | HIPAA | +37 More |
+|-----------------|-----------|------|---------|------|------|-------|----------|
+| Data Protection | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Access Control | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Risk Management | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Incident Response | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Audit & Monitoring | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Privacy Controls | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 _Each compliance area is automatically mapped across frameworks using intelligent analysis and compliance metadata. Compliance impact is shown per control and in summary dashboards._
 
