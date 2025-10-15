@@ -117,13 +117,6 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * Audit Management with automated auditor assignment and review processes
 * AI-Powered Compliance Assistance through intelligent chatbot integration
 
-#### 📹 AI Chatbot Demo
-
-
-https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
-
-
-
 ---
 
 ## Security Frameworks & Methodologies
@@ -273,6 +266,13 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 * **AI Analysis:** LLM/AI-powered compliance analysis and risk assessment
 * **Compliance Analysis Methods:** Automated framework mapping and gap analysis
 * **Database:** Enterprise database with caching layer
+
+---
+
+#### 📹 AI Chatbot Demo
+
+
+https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
 
 ---
 
