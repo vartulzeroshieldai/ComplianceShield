@@ -17,6 +17,10 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ## 🚀 Sign Up for ComplianceShield
 
+### 📹 Complete Demo Video
+
+[![Watch Complete Demo](https://img.shields.io/badge/▶️-Watch%20Complete%20Demo-red?style=for-the-badge)](videos/Demo%20Video.mp4)
+
 </div>
 
 ## Table of Contents
@@ -112,6 +116,10 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * Audit Management with automated auditor assignment and review processes
 * AI-Powered Compliance Assistance through intelligent chatbot integration
 
+#### 📹 AI Chatbot Demo
+
+[![Watch Chatbot Demo](https://img.shields.io/badge/▶️-Watch%20Chatbot%20Demo-purple?style=for-the-badge)](videos/chatbot.mp4)
+
 ---
 
 ## Security Frameworks & Methodologies
@@ -156,6 +164,10 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 
 ComplianceShield provides comprehensive support for major compliance frameworks including ISO 27001, GDPR, PCI DSS, SOC2, NIST, and HIPAA. The system automatically maps organizational controls to framework requirements and tracks compliance progress in real-time.
 
+#### 📹 Compliance Management Demo
+
+[![Watch Compliance Demo](https://img.shields.io/badge/▶️-Watch%20Compliance%20Demo-blue?style=for-the-badge)](videos/compliance.mp4)
+
 **Key Features:**
 * **Framework Integration**: Pre-loaded compliance frameworks with clause and sub-clause structures
 * **Progress Tracking**: Real-time compliance status across all frameworks
@@ -179,6 +191,10 @@ The platform provides automated risk identification, assessment, and mitigation 
 **Automated Privacy Compliance Assessment**
 
 ComplianceShield includes advanced privacy detection capabilities with automated generation of Privacy Impact Assessments (PIA), Data Protection Impact Assessments (DPIA), and Records of Processing Activities (RoPA).
+
+#### 📹 Privacy Detection Demo
+
+[![Watch Privacy Detection Demo](https://img.shields.io/badge/▶️-Watch%20Privacy%20Detection%20Demo-green?style=for-the-badge)](videos/privacy-detection.mp4)
 
 **Key Features:**
 * **PIA Generation**: Automated Privacy Impact Assessment creation
