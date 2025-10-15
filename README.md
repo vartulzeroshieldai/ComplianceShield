@@ -118,6 +118,10 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * AI-Powered Compliance Assistance through intelligent chatbot integration
 
 ---
+### System Overview Architecture
+
+<img width="2201" height="684" alt="image" src="https://github.com/user-attachments/assets/7e1e5915-8cd0-4256-a047-0743dab6135b" />
+
 
 ## Security Frameworks & Methodologies
 
@@ -208,6 +212,13 @@ https://github.com/user-attachments/assets/905261dc-7f1b-475b-8b75-99bc1fb463c8
 
 ---
 
+### Privacy Detection System Architecture
+
+<img width="2392" height="657" alt="image" src="https://github.com/user-attachments/assets/6256e840-46ac-40a2-820b-b2cc498366a1" />
+
+
+---
+
 ## Compliance Mapping
 
 | Compliance Area | ISO 27001 | GDPR | PCI DSS | SOC2 | NIST | HIPAA | +37 More |
@@ -266,6 +277,13 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 * **AI Analysis:** LLM/AI-powered compliance analysis and risk assessment
 * **Compliance Analysis Methods:** Automated framework mapping and gap analysis
 * **Database:** Enterprise database with caching layer
+
+---
+
+### Microservices Architecture
+
+<img width="1136" height="1139" alt="image" src="https://github.com/user-attachments/assets/b42171c3-a93d-4919-acb7-fc301c81f0a2" />
+
 
 ---
 
