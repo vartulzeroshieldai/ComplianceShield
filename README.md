@@ -16,11 +16,6 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 ![Docker](https://img.shields.io/badge/Docker-20.0+-blue.svg)
 
 ## 🚀 Sign Up for ComplianceShield
-
-### 📹 Complete Demo Video
-
-[![Watch Complete Demo](https://img.shields.io/badge/▶️-Watch%20Complete%20Demo-red?style=for-the-badge)](videos/Demo%20Video.mp4)
-
 </div>
 
 ## Table of Contents
@@ -101,6 +96,12 @@ Our team will work with you to find the right plan for your organization's needs
 
 ---
 
+
+### 📹 Complete Demo Video
+
+https://github.com/user-attachments/assets/3b7435b6-1181-4eb0-affd-0f3188a6dbc3
+
+
 ## Core Mission
 
 Empower organizations to rapidly identify, understand, and remediate compliance gaps and risks—across all frameworks—by automating compliance assessments, risk analysis, and evidence management. ComplianceShield bridges the gap between governance requirements, risk management, and operational compliance, enabling secure and compliant digital operations.
@@ -118,7 +119,10 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 
 #### 📹 AI Chatbot Demo
 
-[![Watch Chatbot Demo](https://img.shields.io/badge/▶️-Watch%20Chatbot%20Demo-purple?style=for-the-badge)](videos/chatbot.mp4)
+
+https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
+
+
 
 ---
 
@@ -166,7 +170,10 @@ ComplianceShield provides comprehensive support for major compliance frameworks 
 
 #### 📹 Compliance Management Demo
 
-[![Watch Compliance Demo](https://img.shields.io/badge/▶️-Watch%20Compliance%20Demo-blue?style=for-the-badge)](videos/compliance.mp4)
+
+https://github.com/user-attachments/assets/acc596a9-9d1e-460f-bf4d-d5764d6c781c
+
+
 
 **Key Features:**
 * **Framework Integration**: Pre-loaded compliance frameworks with clause and sub-clause structures
@@ -194,7 +201,10 @@ ComplianceShield includes advanced privacy detection capabilities with automated
 
 #### 📹 Privacy Detection Demo
 
-[![Watch Privacy Detection Demo](https://img.shields.io/badge/▶️-Watch%20Privacy%20Detection%20Demo-green?style=for-the-badge)](videos/privacy-detection.mp4)
+
+https://github.com/user-attachments/assets/905261dc-7f1b-475b-8b75-99bc1fb463c8
+
+
 
 **Key Features:**
 * **PIA Generation**: Automated Privacy Impact Assessment creation
