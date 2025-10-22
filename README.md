@@ -215,10 +215,6 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * **Risk Reporting**: Comprehensive risk dashboards and analytics
 * **Compliance Mapping**: Direct mapping of risks to compliance controls
 
-#### 📹 Risk Management Demo
-
-https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
-
 ---
 
 ## Target Users
@@ -297,6 +293,12 @@ The platform provides automated risk identification, assessment, and mitigation 
 * **Risk Scoring**: Likelihood and impact assessment algorithms
 * **Mitigation Tracking**: Action item management and progress monitoring
 * **Risk Reporting**: Executive dashboards and detailed risk analytics
+
+
+#### 📹 Risk Management Demo
+
+https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
+
 
 ### 3. Privacy Detection & Analysis
 
