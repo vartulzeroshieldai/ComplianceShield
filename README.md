@@ -20,26 +20,26 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ## Table of Contents
 
-* Trial License & Security
-* Paid Access
-* About
-* Core Mission
-* Key Capabilities
-* Security Frameworks & Methodologies
-* Target Users
-* Feature Overview  
-   * 1\. Compliance Framework Management
-   * 2\. Risk Management System
-   * 3\. Privacy Detection & Analysis
-   * 4\. Evidence Management
-   * 5\. Audit Management
-* Compliance Mapping
-* Example Workflows & User Benefits
-* Use Cases
-* Tech Stack
-* Case Studies
-* Support
-* Get Involved
+* [Trial License & Security](#trial-license--security)
+* [Paid Access](#paid-access)
+* [About](#about)
+* [Core Mission](#core-mission)
+* [Key Capabilities](#key-capabilities)
+* [Security Frameworks & Methodologies](#security-frameworks--methodologies)
+* [Target Users](#target-users)
+* [Feature Overview](#feature-overview)
+  * [1. Compliance Framework Management](#1-compliance-framework-management)
+  * [2. Risk Management System](#2-risk-management-system)
+  * [3. Privacy Detection & Analysis](#3-privacy-detection--analysis)
+  * [4. Evidence Management](#4-evidence-management)
+  * [5. Audit Management](#5-audit-management)
+* [Compliance Mapping](#compliance-mapping)
+* [Example Workflows & User Benefits](#example-workflows--user-benefits)
+* [Use Cases](#use-cases)
+* [Tech Stack](#tech-stack)
+* [Case Studies](#case-studies)
+* [Support](#support)
+* [Get Involved](#get-involved)
 
 ---
 
