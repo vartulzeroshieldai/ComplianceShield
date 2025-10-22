@@ -22,7 +22,7 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 * [Trial License & Security](#trial-license--security)
 * [Paid Access](#paid-access)
-* [About](#about)
+* [About](#about-complianceshield)
 * [Core Mission](#core-mission)
 * [Key Capabilities](#key-capabilities)
 * [Security Frameworks & Methodologies](#security-frameworks--methodologies)
