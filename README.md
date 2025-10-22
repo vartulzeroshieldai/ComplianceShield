@@ -47,7 +47,7 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 * **Trial accounts** have a limit of up to **5 compliance assessments** per license period
 * Upgrade to a full license for unlimited assessments and advanced features
-* **Sign up for a trial account**
+* **[Sign up for a trial account](https://zeroshield.ai/solutions/complianceshield/)**
 
 ### Security Measures & Data Protection
 
