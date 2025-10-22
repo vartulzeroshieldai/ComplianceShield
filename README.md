@@ -51,7 +51,7 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ### Security Measures & Data Protection
 
-ComplianceShield implements enterprise-grade security measures to protect your data and ensure the highest level of application security:
+[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) implements enterprise-grade security measures to protect your data and ensure the highest level of application security:
 
 #### File Security
 
@@ -80,17 +80,17 @@ ComplianceShield implements enterprise-grade security measures to protect your d
 
 To learn more about our paid plans and pricing options, please contact our team:
 
-📧 **Email**: support@zeroshield.ai
+📧 **Email**: [support@zeroshield.ai](mailto:support@zeroshield.ai)
 
 Our team will work with you to find the right plan for your organization's needs.
 
-**Get started with a trial account** to experience ComplianceShield today!
+**Get started with a trial account** to experience [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) today!
 
 ---
 
 ## About ComplianceShield
 
-**ComplianceShield** is an advanced governance, risk, and compliance management platform within the **ZeroShield** ecosystem, designed to give organizations deep, actionable insight into compliance across multiple frameworks, risk management, and automated auditing processes. ComplianceShield unifies real-time compliance monitoring, privacy impact assessments, and comprehensive risk management for a complete, **compliance**-ready view of your organizational security posture.
+**[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)** is an advanced governance, risk, and compliance management platform within the **[ZeroShield](https://zeroshield.ai)** ecosystem, designed to give organizations deep, actionable insight into compliance across multiple frameworks, risk management, and automated auditing processes. [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) unifies real-time compliance monitoring, privacy impact assessments, and comprehensive risk management for a complete, **compliance**-ready view of your organizational security posture.
 
 ---
 
@@ -108,13 +108,71 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 
 ## Key Capabilities
 
-* Automated Compliance Framework Management for multiple standards (ISO 27001, ISO 27002, ISO 27017, ISO 27018, ISO 27799, ISO 42001, GDPR, PCI DSS, SOC2, NIST, HIPAA, China Generative AI Measures, COBIT, DORA, DPDPA, DPF, ePrivacy Directive, EU AI Act, IEEE EAD, LGPD, OECD AI Principles, PIPEDA, PIPL, AUD, CIS CAS, CPPA, CSA STAR, FEAT Principles, GLBA, HITRUST CSF, NIST AI RMF, NIST CSF, NIST SP800, PDPA Singapore, PDPA Thailand, PDPL Saudi, PDPL Vietnam, POPIA, RBI CS, APPI, US State Privacy Laws, SEBI CSCRF, WHO AI Governance)
-* Advanced Risk Management with automated risk identification and scoring
-* Privacy Detection & Analysis with automated PIA, DPIA, and RoPA generation
-* Evidence Management with approval workflows and compliance mapping
-* Audit Management with automated auditor assignment and review processes
-* AI-Powered Compliance Assistance through intelligent chatbot integration
+* **Automated Compliance Framework Management** for multiple standards:
+  1. **ISO Standards**
+     - ISO 27001 (Information Security Management)
+     - ISO 27002 (Information Security Controls)
+     - ISO 27017 (Cloud Security)
+     - ISO 27018 (Cloud Privacy)
+     - ISO 27799 (Healthcare Security)
+     - ISO 42001 (AI Management Systems)
 
+  2. **Privacy & Data Protection Regulations**
+     - GDPR (General Data Protection Regulation)
+     - DPDPA (Digital Personal Data Protection Act - India)
+     - LGPD (Brazilian Data Protection Law)
+     - PIPEDA (Canada)
+     - PIPL (China Personal Information Protection Law)
+     - PDPA Singapore
+     - PDPA Thailand
+     - PDPL Saudi Arabia
+     - PDPL Vietnam
+     - POPIA (South Africa)
+     - CCPA (California Consumer Privacy Act)
+     - US State Privacy Laws
+
+  3. **Cybersecurity Frameworks**
+     - NIST CSF (Cybersecurity Framework)
+     - NIST AI RMF (AI Risk Management Framework)
+     - NIST SP800 Series
+     - HITRUST CSF
+     - COBIT 2019
+     - CIS Controls
+     - CSA STAR (Cloud Security Alliance)
+
+  4. **Industry-Specific Standards**
+     - PCI DSS (Payment Card Industry)
+     - SOC2 (Service Organization Controls)
+     - HIPAA (Healthcare)
+     - GLBA (Financial Services)
+     - DORA (Digital Operational Resilience Act)
+
+  5. **AI & Emerging Technology Governance**
+     - EU AI Act
+     - China Generative AI Measures
+     - IEEE EAD (Ethical AI Design)
+     - OECD AI Principles
+     - WHO AI Governance
+     - NIST AI RMF
+
+  6. **Regional & National Frameworks**
+     - APPI (Japan)
+     - AUD (Australia)
+     - RBI CS (India)
+     - SEBI CSCRF (India)
+     - FEAT Principles
+
+  7. **Additional Compliance Standards**
+     - ePrivacy Directive
+     - DPF (Data Privacy Framework)
+     - CPPA (California Privacy Protection Act)
+
+* **Advanced Risk Management** with automated risk identification and scoring
+* **Privacy Detection & Analysis** with automated PIA, DPIA, and RoPA generation
+* **Evidence Management** with approval workflows and compliance mapping
+* **Audit Management** with automated auditor assignment and review processes
+* **AI-Powered Compliance Assistance** through intelligent chatbot integration
+  
 ---
 ### System Overview Architecture
 
@@ -128,13 +186,27 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 | Framework | Status | Coverage | Key Features |
 |-----------|--------|----------|--------------|
 | **ISO 27001:2022** | ✅ Supported | Complete | Information Security Management |
+| **ISO 27002:2022** | ✅ Supported | Complete | Information Security Controls |
 | **GDPR** | ✅ Supported | Complete | Data Protection & Privacy |
 | **PCI DSS** | ✅ Supported | Complete | Payment Card Industry Security |
 | **SOC2** | ✅ Supported | Complete | Service Organization Controls |
-| **NIST** | ✅ Supported | Complete | Cybersecurity Framework |
+| **NIST CSF 2.0** | ✅ Supported | Complete | Cybersecurity Framework |
 | **HIPAA** | ✅ Supported | Complete | Healthcare Data Protection |
+| **COBIT 2019** | ✅ Supported | Complete | IT Governance & Management |
+| **HITRUST CSF** | ✅ Supported | Complete | Healthcare Information Security |
+| **ISO 27017:2015** | ✅ Supported | Complete | Cloud Security Controls |
+| **ISO 27018:2019** | ✅ Supported | Complete | Cloud Privacy Protection |
+| **LGPD** | ✅ Supported | Complete | Brazilian Data Protection Law |
+| **CCPA** | ✅ Supported | Complete | California Consumer Privacy Act |
+| **PIPEDA** | ✅ Supported | Complete | Canadian Privacy Protection |
+| **PIPL** | ✅ Supported | Complete | China Personal Information Protection |
+| **DORA** | ✅ Supported | Complete | Digital Operational Resilience Act |
+| **CIS Controls** | ✅ Supported | Complete | Critical Security Controls |
+| **CSA STAR** | ✅ Supported | Complete | Cloud Security Alliance |
+| **ISO 42001:2023** | ✅ Supported | Complete | AI Management Systems |
+| **EU AI Act** | ✅ Supported | Complete | European AI Regulation |
 
-* +37 more frameworks.
+* +20 more frameworks available including NIST AI RMF, DPDPA, PDPA Singapore/Thailand, PDPL Saudi/Vietnam, POPIA, RBI CS, SEBI CSCRF, and more.
 
 ### Risk Management Methodologies
 
@@ -142,6 +214,10 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * **Risk Mitigation**: Action item tracking and progress monitoring
 * **Risk Reporting**: Comprehensive risk dashboards and analytics
 * **Compliance Mapping**: Direct mapping of risks to compliance controls
+
+#### 📹 Risk Management Demo
+
+https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
 
 ---
 
@@ -195,7 +271,7 @@ Compliance testing and validation with automated control testing and audit trail
 
 **Automated Multi-Framework Support**
 
-ComplianceShield provides comprehensive support for major compliance frameworks including ISO 27001, GDPR, PCI DSS, SOC2, NIST, and HIPAA. The system automatically maps organizational controls to framework requirements and tracks compliance progress in real-time.
+[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) provides comprehensive support for major compliance frameworks including ISO 27001, GDPR, PCI DSS, SOC2, NIST, and HIPAA. The system automatically maps organizational controls to framework requirements and tracks compliance progress in real-time.
 
 #### 📹 Compliance Management Demo
 
@@ -226,7 +302,7 @@ The platform provides automated risk identification, assessment, and mitigation 
 
 **Automated Privacy Compliance Assessment**
 
-ComplianceShield includes advanced privacy detection capabilities with automated generation of Privacy Impact Assessments (PIA), Data Protection Impact Assessments (DPIA), and Records of Processing Activities (RoPA).
+[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) includes advanced privacy detection capabilities with automated generation of Privacy Impact Assessments (PIA), Data Protection Impact Assessments (DPIA), and Records of Processing Activities (RoPA).
 
 #### 📹 Privacy Detection Demo
 
@@ -247,7 +323,6 @@ https://github.com/user-attachments/assets/905261dc-7f1b-475b-8b75-99bc1fb463c8
 ### Privacy Detection System Architecture
 
 <img width="2392" height="657" alt="image" src="https://github.com/user-attachments/assets/6256e840-46ac-40a2-820b-b2cc498366a1" />
-
 
 ---
 
@@ -341,28 +416,28 @@ A public repository of case studies and technical deep-dives are available below
 
 ## Support
 
-* 📧 Contact: contact@cyberultron.com
-* 📧 Support Queries: support@zeroshield.ai
+* 📧 Contact: [vartul@zeroshield.ai](mailto:vartul@zeroshield.ai)
+* 📧 Support Queries: [support@zeroshield.ai](mailto:support@zeroshield.ai)
 
 ---
 
 > **Value Proposition:**  
-> Unified, automated compliance and risk management for the next generation of enterprise governance "ComplianceShield turns complex, manual compliance and risk challenges into automated, actionable insights—empowering organizations to move faster, safer, and with confidence."_ComplianceShield, a part of ZeroShield, brings in-depth, practical compliance management to every step of your governance and risk management lifecycle._
+> Unified, automated compliance and risk management for the next generation of enterprise governance "[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) turns complex, manual compliance and risk challenges into automated, actionable insights—empowering organizations to move faster, safer, and with confidence."_ComplianceShield, a part of ZeroShield, brings in-depth, practical compliance management to every step of your governance and risk management lifecycle._
 
 ---
 
 ## Get Involved
 
-We welcome contributions from the compliance and security community! Here's how you can get involved with ComplianceShield:
+We welcome contributions from the compliance and security community! Here's how you can get involved with [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/):
 
 ### 🚀 Get Started
 
-**Sign up for ComplianceShield** to start managing your compliance today!
+**Sign up for [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)** to start managing your compliance today!
 
 ### 🤝 Contributing
 
 * **Report Issues**: Found a bug or have a feature request? Open an issue on our repository
-* **Code Contributions**: Submit pull requests to help improve ComplianceShield
+* **Code Contributions**: Submit pull requests to help improve [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)
 * **Documentation**: Help improve our documentation and examples
 * **Compliance Research**: Contribute new compliance frameworks, risk models, or assessment techniques
 
@@ -370,21 +445,15 @@ We welcome contributions from the compliance and security community! Here's how 
 
 * **GitHub Discussions**: Join our community discussions and share ideas
 * **Compliance Research**: Collaborate on new compliance analysis techniques
-* **Feedback**: Share your experience using ComplianceShield in your organization
+* **Feedback**: Share your experience using [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) in your organization
 
 ### 📞 Contact
 
-* **General Contact**: contact@cyberultron.com
-* **Support**: support@zeroshield.ai
+* **General Contact**: [vartul@zeroshield.ai](mailto:vartul@zeroshield.ai)
+* **Support**: [support@zeroshield.ai](mailto:support@zeroshield.ai)
 
 ---
 
-All rights reserved. This software and its documentation are the intellectual property of ZeroShield.
+All rights reserved. This software and its documentation are the intellectual property of [ZeroShield](https://zeroshield.ai).
 
 ---
-
-## About
-
- ComplianceShield is a unified, AI-powered compliance management platform from zeroshield.ai. It is an advanced compliance tool built to perform governance, risk, and compliance management for enterprise organizations across multiple frameworks.
-
-zeroshield.ai 
