@@ -381,12 +381,32 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 ## Tech Stack
 
-* **Backend:** Python (Django), REST API, JWT Auth
-* **Frontend:** React (TypeScript), Tailwind CSS, Chart.js, React Router
-* **AI Analysis:** LLM/AI-powered compliance analysis and risk assessment
-* **Compliance Analysis Methods:** Automated framework mapping and gap analysis
-* **Database:** Enterprise database with caching layer
+### **Backend**
 
+- **Django 4.2+**: Web framework with REST API
+- **PostgreSQL**: Primary database
+- **Redis**: Caching and session storage
+- **Gunicorn**: Production WSGI server
+
+### **Frontend**
+
+- **React 18+**: Modern UI framework
+- **Vite**: Fast build tool and dev server
+- **Tailwind CSS**: Utility-first CSS framework
+- **Headless UI**: Accessible UI components
+
+### **AI & Security**
+
+- **RASA - Conversational AI framework**
+- **Mobile Security Framework**
+- **Secrets Detection**
+- **SAST scanning**
+
+### **DevOps**
+
+- **Docker**: Containerization
+- **Docker Compose**: Multi-container orchestration
+  
 ---
 
 ### Microservices Architecture
