@@ -15,7 +15,7 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg)
 ![Docker](https://img.shields.io/badge/Docker-20.0+-blue.svg)
 
-## 🚀 Sign Up for ComplianceShield
+## 🚀 [Sign Up for ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)
 </div>
 
 ## Table of Contents
