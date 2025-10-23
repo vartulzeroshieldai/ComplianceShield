@@ -6,7 +6,7 @@
 
 <img width="400" height="400" alt="Zero-Shield" src="https://github.com/user-attachments/assets/32e82d4b-2729-42e3-bdd6-40983173b4d8" />
 
-_ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
+_[ComplianceShield](https://https://complianceshield.zeroshield.ai/), a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
@@ -137,7 +137,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
      - NIST AI RMF (AI Risk Management Framework)
      - NIST SP800 Series
      - HITRUST CSF
-     - COBIT 2019
+     - COBIT
      - CIS Controls
      - CSA STAR (Cloud Security Alliance)
 
@@ -177,7 +177,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 ---
 ### System Overview Architecture
 
-<img width="2201" height="684" alt="image" src="https://github.com/user-attachments/assets/7e1e5915-8cd0-4256-a047-0743dab6135b" />
+<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/7e1e5915-8cd0-4256-a047-0743dab6135b" />
 
 
 ## Security Frameworks & Methodologies
@@ -193,7 +193,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 | **SOC2** | ✅ Supported | Complete | Service Organization Controls |
 | **NIST CSF 2.0** | ✅ Supported | Complete | Cybersecurity Framework |
 | **HIPAA** | ✅ Supported | Complete | Healthcare Data Protection |
-| **COBIT 2019** | ✅ Supported | Complete | IT Governance & Management |
+| **COBIT** | ✅ Supported | Complete | IT Governance & Management |
 | **HITRUST CSF** | ✅ Supported | Complete | Healthcare Information Security |
 | **ISO 27017:2015** | ✅ Supported | Complete | Cloud Security Controls |
 | **ISO 27018:2019** | ✅ Supported | Complete | Cloud Privacy Protection |
@@ -325,7 +325,7 @@ https://github.com/user-attachments/assets/905261dc-7f1b-475b-8b75-99bc1fb463c8
 
 ### Privacy Detection System Architecture
 
-<img width="2392" height="657" alt="image" src="https://github.com/user-attachments/assets/6256e840-46ac-40a2-820b-b2cc498366a1" />
+<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/6256e840-46ac-40a2-820b-b2cc498366a1" />
 
 ---
 
@@ -412,7 +412,7 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 ### Microservices Architecture
 
-<img width="2386" height="1278" alt="image" src="https://github.com/user-attachments/assets/6fa6ba73-e976-4760-93cb-99118bc6319f" />
+<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/6fa6ba73-e976-4760-93cb-99118bc6319f" />
 
 
 ---
@@ -429,10 +429,10 @@ https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
 A public repository of case studies and technical deep-dives are available, demonstrating ComplianceShield's real-world impact across various compliance domains.
 
 * **Case Study 1: Achieving-ISO-27001-Compliance-in-Record-Time**  
-   * [View Source Documentation](https://github.com/CyberUltron-tarun/ComplianceShield/blob/main/Case%20Studies/Achieving-ISO-27001-Compliance-in-Record-Time.pdf)
+   * [View Source Documentation](https://github.com/vartulzeroshieldai/ComplianceShield/blob/main/Case%20Studies/Achieving-ISO-27001-Compliance-in-Record-Time.pdf)
 
 * **Case Study 2: GDPR-Compliance-Assessment-for-a-Healthcare-Platform**  
-   * [View Source Documentation](https://github.com/CyberUltron-tarun/ComplianceShield/blob/main/Case%20Studies/GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf)
+   * [View Source Documentation](https://github.com/vartulzeroshieldai/ComplianceShield/blob/main/Case%20Studies/GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf)
 
 ---
 
