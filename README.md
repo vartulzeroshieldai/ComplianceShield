@@ -4,7 +4,8 @@
 
 ### _Advanced Governance, Risk & Compliance Management System_
 
-![ZeroShield Logo](logo.png)  
+<img width="1598" height="438" alt="Zero-Shield" src="https://github.com/user-attachments/assets/32e82d4b-2729-42e3-bdd6-40983173b4d8" />
+
 _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -409,13 +410,6 @@ _Each compliance area is automatically mapped across frameworks using intelligen
   
 ---
 
-### Microservices Architecture
-
-<img width="1136" height="1139" alt="image" src="https://github.com/user-attachments/assets/b42171c3-a93d-4919-acb7-fc301c81f0a2" />
-
-
----
-
 #### 📹 AI Chatbot Demo
 
 
@@ -425,14 +419,13 @@ https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
 
 ## Case Studies
 
-A public repository of case studies and technical deep-dives are available below, demonstrating ComplianceShield's real-world impact across various compliance domains.
+A public repository of case studies and technical deep-dives are available, demonstrating ComplianceShield's real-world impact across various compliance domains.
 
-* **Case Study 1: Achieving ISO 27001 Compliance for a Financial Services Organization**  
-   * View Source Documentation  
-   * **View Full Report**
-* **Case Study 2: GDPR Compliance Assessment for a Healthcare Platform**  
-   * View Source Documentation  
-   * **View Full Report**
+* **Case Study 1: Achieving-ISO-27001-Compliance-in-Record-Time**  
+   * [View Source Documentation]([Achieving-ISO-27001-Compliance-in-Record-Time.pdf](https://github.com/user-attachments/files/23090849/Achieving-ISO-27001-Compliance-in-Record-Time.pdf)
+)
+* **Case Study 2: GDPR-Compliance-Assessment-for-a-Healthcare-Platform**  
+   * [View Source Documentation]([GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf](https://github.com/user-attachments/files/23090859/GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf))
 
 ---
 
