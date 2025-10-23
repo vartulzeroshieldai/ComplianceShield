@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 🛡️ ComplianceShield
@@ -98,8 +99,7 @@ Our team will work with you to find the right plan for your organization's needs
 
 ### 📹 Complete Demo Video
 
-https://github.com/user-attachments/assets/3b7435b6-1181-4eb0-affd-0f3188a6dbc3
-
+https://github.com/user-attachments/assets/6291477c-4476-4bb9-88cd-8c4d8757e245
 
 ## Core Mission
 
@@ -272,10 +272,7 @@ Compliance testing and validation with automated control testing and audit trail
 
 #### 📹 Compliance Management Demo
 
-
-https://github.com/user-attachments/assets/acc596a9-9d1e-460f-bf4d-d5764d6c781c
-
-
+https://github.com/user-attachments/assets/7fc8ffc7-5a67-4d93-b49a-c5abcfe2a90c
 
 **Key Features:**
 * **Framework Integration**: Pre-loaded compliance frameworks with clause and sub-clause structures
@@ -298,8 +295,7 @@ The platform provides automated risk identification, assessment, and mitigation 
 
 #### 📹 Risk Management Demo
 
-https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
-
+https://github.com/user-attachments/assets/3a842262-d132-4ba6-86c8-47c3a0dfc8e9
 
 ### 3. Privacy Detection & Analysis
 
@@ -309,10 +305,7 @@ https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
 
 #### 📹 Privacy Detection Demo
 
-
-https://github.com/user-attachments/assets/905261dc-7f1b-475b-8b75-99bc1fb463c8
-
-
+https://github.com/user-attachments/assets/df6f5672-6daf-4c2f-9b1d-b32bb4a7c52e
 
 **Key Features:**
 * **PIA Generation**: Automated Privacy Impact Assessment creation
@@ -420,7 +413,8 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 #### 📹 AI Chatbot Demo
 
 
-https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
+https://github.com/user-attachments/assets/278bfc3c-88bf-4a13-9479-b9d08a428818
+
 
 ---
 
