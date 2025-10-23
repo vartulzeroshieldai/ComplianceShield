@@ -16,7 +16,7 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3+-blue.svg)
 ![Docker](https://img.shields.io/badge/Docker-20.0+-blue.svg)
 
-## 🚀 [Sign Up for ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)
+## 🚀 [Sign Up for ComplianceShield](https://https://complianceshield.zeroshield.ai/)
 </div>
 
 ## Table of Contents
@@ -46,13 +46,13 @@ _ComplianceShield, a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
 ### Trial License Limits
 
-* **Trial accounts** have a limit of up to **5 compliance assessments** per license period
+* **Trial accounts** have a limit of up to **5 document uploads** per license period
 * Upgrade to a full license for unlimited assessments and advanced features
-* **[Sign up for a trial account](https://zeroshield.ai/solutions/complianceshield/)**
+* **[Sign up for a trial account](https://https://complianceshield.zeroshield.ai/)**
 
 ### Security Measures & Data Protection
 
-[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) implements enterprise-grade security measures to protect your data and ensure the highest level of application security:
+[ComplianceShield](https://https://complianceshield.zeroshield.ai/) implements enterprise-grade security measures to protect your data and ensure the highest level of application security:
 
 #### File Security
 
@@ -85,13 +85,13 @@ To learn more about our paid plans and pricing options, please contact our team:
 
 Our team will work with you to find the right plan for your organization's needs.
 
-**Get started with a trial account** to experience [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) today!
+**Get started with a trial account** to experience [ComplianceShield](https://https://complianceshield.zeroshield.ai/) today!
 
 ---
 
 ## About ComplianceShield
 
-**[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)** is an advanced governance, risk, and compliance management platform within the **[ZeroShield](https://zeroshield.ai)** ecosystem, designed to give organizations deep, actionable insight into compliance across multiple frameworks, risk management, and automated auditing processes. [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) unifies real-time compliance monitoring, privacy impact assessments, and comprehensive risk management for a complete, **compliance**-ready view of your organizational security posture.
+**[ComplianceShield](https://https://complianceshield.zeroshield.ai/)** is an advanced governance, risk, and compliance management platform within the **[ZeroShield](https://zeroshield.ai)** ecosystem, designed to give organizations deep, actionable insight into compliance across multiple frameworks, risk management, and automated auditing processes. [ComplianceShield](https://https://complianceshield.zeroshield.ai/) unifies real-time compliance monitoring, privacy impact assessments, and comprehensive risk management for a complete, **compliance**-ready view of your organizational security posture.
 
 ---
 
@@ -268,7 +268,7 @@ Compliance testing and validation with automated control testing and audit trail
 
 **Automated Multi-Framework Support**
 
-[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) provides comprehensive support for major compliance frameworks including ISO 27001, GDPR, PCI DSS, SOC2, NIST, and HIPAA. The system automatically maps organizational controls to framework requirements and tracks compliance progress in real-time.
+[ComplianceShield](https://https://complianceshield.zeroshield.ai/) provides comprehensive support for major compliance frameworks including ISO 27001, GDPR, PCI DSS, SOC2, NIST, and HIPAA. The system automatically maps organizational controls to framework requirements and tracks compliance progress in real-time.
 
 #### 📹 Compliance Management Demo
 
@@ -305,7 +305,7 @@ https://github.com/user-attachments/assets/6cf4d08b-e173-4aa7-a032-c9ee9ba1d84d
 
 **Automated Privacy Compliance Assessment**
 
-[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) includes advanced privacy detection capabilities with automated generation of Privacy Impact Assessments (PIA), Data Protection Impact Assessments (DPIA), and Records of Processing Activities (RoPA).
+[ComplianceShield](https://https://complianceshield.zeroshield.ai/) includes advanced privacy detection capabilities with automated generation of Privacy Impact Assessments (PIA), Data Protection Impact Assessments (DPIA), and Records of Processing Activities (RoPA).
 
 #### 📹 Privacy Detection Demo
 
@@ -444,22 +444,22 @@ A public repository of case studies and technical deep-dives are available, demo
 ---
 
 > **Value Proposition:**  
-> Unified, automated compliance and risk management for the next generation of enterprise governance "[ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) turns complex, manual compliance and risk challenges into automated, actionable insights—empowering organizations to move faster, safer, and with confidence."_ComplianceShield, a part of ZeroShield, brings in-depth, practical compliance management to every step of your governance and risk management lifecycle._
+> Unified, automated compliance and risk management for the next generation of enterprise governance "[ComplianceShield](https://https://complianceshield.zeroshield.ai/) turns complex, manual compliance and risk challenges into automated, actionable insights—empowering organizations to move faster, safer, and with confidence."_ComplianceShield, a part of ZeroShield, brings in-depth, practical compliance management to every step of your governance and risk management lifecycle._
 
 ---
 
 ## Get Involved
 
-We welcome contributions from the compliance and security community! Here's how you can get involved with [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/):
+We welcome contributions from the compliance and security community! Here's how you can get involved with [ComplianceShield](https://https://complianceshield.zeroshield.ai/):
 
 ### 🚀 Get Started
 
-**Sign up for [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)** to start managing your compliance today!
+**Sign up for [ComplianceShield](https://https://complianceshield.zeroshield.ai/)** to start managing your compliance today!
 
 ### 🤝 Contributing
 
 * **Report Issues**: Found a bug or have a feature request? Open an issue on our repository
-* **Code Contributions**: Submit pull requests to help improve [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/)
+* **Code Contributions**: Submit pull requests to help improve [ComplianceShield](https://https://complianceshield.zeroshield.ai/)
 * **Documentation**: Help improve our documentation and examples
 * **Compliance Research**: Contribute new compliance frameworks, risk models, or assessment techniques
 
@@ -467,7 +467,7 @@ We welcome contributions from the compliance and security community! Here's how 
 
 * **GitHub Discussions**: Join our community discussions and share ideas
 * **Compliance Research**: Collaborate on new compliance analysis techniques
-* **Feedback**: Share your experience using [ComplianceShield](https://zeroshield.ai/solutions/complianceshield/) in your organization
+* **Feedback**: Share your experience using [ComplianceShield](https://https://complianceshield.zeroshield.ai/) in your organization
 
 ### 📞 Contact
 
