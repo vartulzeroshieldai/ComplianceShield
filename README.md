@@ -410,6 +410,13 @@ _Each compliance area is automatically mapped across frameworks using intelligen
   
 ---
 
+### Microservices Architecture
+
+<img width="2386" height="1278" alt="image" src="https://github.com/user-attachments/assets/6fa6ba73-e976-4760-93cb-99118bc6319f" />
+
+
+---
+
 #### 📹 AI Chatbot Demo
 
 
@@ -422,10 +429,10 @@ https://github.com/user-attachments/assets/2eb0d8d7-2885-4f49-8886-de626a628aee
 A public repository of case studies and technical deep-dives are available, demonstrating ComplianceShield's real-world impact across various compliance domains.
 
 * **Case Study 1: Achieving-ISO-27001-Compliance-in-Record-Time**  
-   * [View Source Documentation]([Achieving-ISO-27001-Compliance-in-Record-Time.pdf](https://github.com/user-attachments/files/23090849/Achieving-ISO-27001-Compliance-in-Record-Time.pdf)
-)
+   * [View Source Documentation](https://github.com/CyberUltron-tarun/ComplianceShield/blob/main/Case%20Studies/Achieving-ISO-27001-Compliance-in-Record-Time.pdf)
+
 * **Case Study 2: GDPR-Compliance-Assessment-for-a-Healthcare-Platform**  
-   * [View Source Documentation]([GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf](https://github.com/user-attachments/files/23090859/GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf))
+   * [View Source Documentation](https://github.com/CyberUltron-tarun/ComplianceShield/blob/main/Case%20Studies/GDPR-Compliance-Assessment-for-a-Healthcare-Platform.pdf)
 
 ---
 
