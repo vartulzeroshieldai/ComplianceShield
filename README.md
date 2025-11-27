@@ -180,6 +180,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 ---
 ### System Overview Architecture
 
+<img width="1801" height="1141" alt="image" src="https://github.com/user-attachments/assets/b6e66968-60c6-4740-9924-63fff078b2e4" />
 
 
 ## Security Frameworks & Methodologies
@@ -333,6 +334,7 @@ https://github.com/user-attachments/assets/3e51d776-b43e-4ed1-b9dc-f5b10459f003
 
 ### Privacy Detection System Architecture
 
+<img width="2392" height="657" alt="Screenshot 2025-10-15 154408" src="https://github.com/user-attachments/assets/b164e683-9344-44d8-8d6c-7798723fe36c" />
 
 ---
 
@@ -375,6 +377,11 @@ https://github.com/user-attachments/assets/bcbdba27-664d-4a38-beb6-416c10c27972
 * **GPU/CPU Auto-Detection**: Automatically optimizes performance based on available hardware
 * **Chunk-Based Processing**: Handles large documents efficiently with intelligent text chunking
 * **Secure Processing**: All processing done in-memory with automatic cleanup and no persistent storage
+
+### AI Services Architecture
+
+<img width="2182" height="782" alt="image" src="https://github.com/user-attachments/assets/36235a9e-ad5d-462c-a1ee-223d8235d1c1" />
+
 
 ### 5. Third-Party Risk Management (TPRM)
 
@@ -508,7 +515,7 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 ### Microservices Architecture
 
-<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/6fa6ba73-e976-4760-93cb-99118bc6319f" />
+<img width="1136" height="1139" alt="Screenshot 2025-10-15 155021" src="https://github.com/user-attachments/assets/1dd6f2fe-017c-4b65-a819-de6f52d7f50e" />
 
 
 ---
