@@ -172,7 +172,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 
 * **Advanced Risk Management** with automated risk identification, scoring, and mitigation alerts
 * **Privacy Detection & Analysis** with automated PIA, DPIA, and RoPA generation
-* **AI-Powered Document Services** - Digital signature validation, document compliance analysis, and evidence generation
+* **AI-Powered Document Services** - Digital signature validation, document compliance analysis, and evidence suggestion generation
 * **Third-Party Risk Management** - Comprehensive vendor assessment and risk monitoring
 * **Evidence Management** with approval workflows and compliance mapping
 * **Audit Management** with automated auditor assignment and review processes
@@ -364,7 +364,7 @@ https://github.com/user-attachments/assets/bcbdba27-664d-4a38-beb6-416c10c27972
 * **Gap Analysis**: Identifies matched sections and compliance gaps with actionable recommendations
 * **PDF Report Generation**: Generates professionally formatted PDF reports with compliance mapping tables, proper text wrapping, and alternating row backgrounds
 
-#### Evidence Generator
+#### Evidence Suggestions Generator
 * **AI-Powered Suggestions**: Uses AWS Bedrock LLM to generate evidence suggestions for compliance controls
 * **Control-Specific Recommendations**: Provides tailored evidence recommendations based on framework, control number, and control description
 * **Sub-Control Mapping**: Generates evidence suggestions for both controls and sub-controls
@@ -372,7 +372,7 @@ https://github.com/user-attachments/assets/bcbdba27-664d-4a38-beb6-416c10c27972
 * **Integration**: Seamlessly integrates with compliance framework management for automated evidence collection
 
 **Technical Architecture:**
-* **Cloud LLM Integration**: Uses AWS Bedrock for evidence generation
+* **Cloud LLM Integration**: Uses AWS Bedrock.
 * **Chunk-Based Processing**: Handles large documents efficiently with intelligent text chunking
 * **Secure Processing**: All processing done in-memory with automatic cleanup and no persistent storage
 
