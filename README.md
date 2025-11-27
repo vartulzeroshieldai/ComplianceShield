@@ -372,9 +372,7 @@ https://github.com/user-attachments/assets/bcbdba27-664d-4a38-beb6-416c10c27972
 * **Integration**: Seamlessly integrates with compliance framework management for automated evidence collection
 
 **Technical Architecture:**
-* **On-Premises LLM**: Uses Ollama (llama3:8b) for signature validation and document analysis
 * **Cloud LLM Integration**: Uses AWS Bedrock for evidence generation
-* **GPU/CPU Auto-Detection**: Automatically optimizes performance based on available hardware
 * **Chunk-Based Processing**: Handles large documents efficiently with intelligent text chunking
 * **Secure Processing**: All processing done in-memory with automatic cleanup and no persistent storage
 
@@ -395,13 +393,12 @@ https://github.com/user-attachments/assets/d1b3e8b2-04ec-4aa3-817b-b2793c8dcda8
 
 **Key Features:**
 
-* **Vendor Assessment**: Comprehensive questionnaire-based assessment covering 15+ security and compliance questions
+* **Vendor Assessment**: Comprehensive questionnaire-based assessment covering 30+ security and compliance questions
 * **Due Diligence Tracking**: Monitor vendor due diligence report status (Complete/Incomplete)
 * **Contract Management**: Track vendor contract states (Signed, Pending for renewal)
 * **Risk Scoring**: Automated percentage-based risk scoring based on questionnaire responses
-* **Assessment History**: Maintain complete assessment history with timestamps and audit trails
+* **Assessment History**: Maintain complete assessment history
 * **PDF Report Generation**: Generate professional PDF assessment reports for vendor documentation
-* **Organization Scoping**: Multi-tenant support with organization-level data isolation
 
 **Assessment Areas Covered:**
 * Information Security Policy and Management
