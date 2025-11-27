@@ -5,7 +5,7 @@
 
 ### _Advanced Governance, Risk & Compliance Management System_
 
-<img width="1598" height="438" alt="Zero-Shield" src="https://github.com/user-attachments/assets/3ada3ed3-0eb5-4ed0-83d8-940d0a2e27eb" />
+<img width="1598" height="438" alt="Zero-Shield" src="https://github.com/user-attachments/assets/ac395e39-3282-4acd-8534-3097f588c486" />
 
 _[ComplianceShield](https://complianceshield.zeroshield.ai/), a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
@@ -33,6 +33,8 @@ _[ComplianceShield](https://complianceshield.zeroshield.ai/), a part of <a href=
   * [1. Compliance Framework Management](#1-compliance-framework-management)
   * [2. Risk Management System](#2-risk-management-system)
   * [3. Privacy Detection & Analysis](#3-privacy-detection--analysis)
+  * [4. AI-Powered Services](#4-ai-powered-services)
+  * [5. Third-Party Risk Management (TPRM)](#5-third-party-risk-management-tprm)
 * [Compliance Mapping](#compliance-mapping)
 * [Example Workflows & User Benefits](#example-workflows--user-benefits)
 * [Use Cases](#use-cases)
@@ -99,7 +101,7 @@ Our team will work with you to find the right plan for your organization's needs
 
 ### 📹 Complete Demo Video
 
-https://github.com/user-attachments/assets/6291477c-4476-4bb9-88cd-8c4d8757e245
+https://github.com/user-attachments/assets/69817ee3-6461-464a-bf99-c95c9983d923
 
 ## Core Mission
 
@@ -168,16 +170,16 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
      - DPF (Data Privacy Framework)
      - CPPA (California Privacy Protection Act)
 
-* **Advanced Risk Management** with automated risk identification and scoring
+* **Advanced Risk Management** with automated risk identification, scoring, and mitigation alerts
 * **Privacy Detection & Analysis** with automated PIA, DPIA, and RoPA generation
+* **AI-Powered Document Services** - Digital signature validation, document compliance analysis, and evidence generation
+* **Third-Party Risk Management** - Comprehensive vendor assessment and risk monitoring
 * **Evidence Management** with approval workflows and compliance mapping
 * **Audit Management** with automated auditor assignment and review processes
-* **AI-Powered Compliance Assistance** through intelligent chatbot integration
   
 ---
 ### System Overview Architecture
 
-<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/7e1e5915-8cd0-4256-a047-0743dab6135b" />
 
 
 ## Security Frameworks & Methodologies
@@ -212,7 +214,8 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 ### Risk Management Methodologies
 
 * **Risk Assessment**: Automated likelihood and impact scoring
-* **Risk Mitigation**: Action item tracking and progress monitoring
+* **Risk Mitigation**: Action item tracking and progress monitoring with target mitigation dates
+* **Mitigation Alerts**: Automated alert generation for upcoming and overdue risk mitigation deadlines
 * **Risk Reporting**: Comprehensive risk dashboards and analytics
 * **Compliance Mapping**: Direct mapping of risks to compliance controls
 
@@ -260,6 +263,11 @@ Compliance testing and validation with automated control testing and audit trail
 
 **Real World Scenario:** Michael, a QA Manager at a software development company, needs to ensure their software development lifecycle meets ISO 27001 and SOC2 requirements. He uses ComplianceShield to create compliance test cases and validate security controls across the development process. The platform automatically tracks control implementation, generates test reports, and maintains audit trails for all compliance activities. The comprehensive testing approach identifies 5 control gaps that are quickly remediated, resulting in successful ISO 27001 certification and SOC2 Type II compliance. The automated audit trails save 40 hours per month in manual documentation and ensure continuous compliance monitoring.
 
+### Vendor Risk Managers
+Comprehensive third-party risk assessment and vendor management with automated scoring and reporting.
+
+**Real World Scenario:** Lisa, a Vendor Risk Manager at a financial services company, needs to assess 50+ third-party vendors before contract renewals to ensure compliance with ISO 27001 and SOC2 requirements. She uses ComplianceShield's TPRM module to conduct standardized security assessments for each vendor. The platform automatically scores each vendor based on their questionnaire responses, identifying 12 high-risk vendors requiring additional due diligence. She generates PDF assessment reports for each vendor and tracks contract renewal dates. The automated risk scoring and reporting saves 80 hours of manual assessment work and ensures all vendors meet security requirements before contract renewal, preventing potential security incidents and maintaining regulatory compliance.
+
 ---
 
 ## Feature Overview
@@ -272,7 +280,7 @@ Compliance testing and validation with automated control testing and audit trail
 
 #### 📹 Compliance Management Demo
 
-https://github.com/user-attachments/assets/7fc8ffc7-5a67-4d93-b49a-c5abcfe2a90c
+https://github.com/user-attachments/assets/f6510559-9ab2-42a3-92f4-3b6c39768124
 
 **Key Features:**
 * **Framework Integration**: Pre-loaded compliance frameworks with clause and sub-clause structures
@@ -282,20 +290,27 @@ https://github.com/user-attachments/assets/7fc8ffc7-5a67-4d93-b49a-c5abcfe2a90c
 
 ### 2. Risk Management System
 
-**Intelligent Risk Assessment & Mitigation**
+**Intelligent Risk Assessment & Mitigation with Automated Alerts**
 
-The platform provides automated risk identification, assessment, and mitigation tracking with comprehensive reporting capabilities.
+The platform provides automated risk identification, assessment, and mitigation tracking with comprehensive reporting capabilities and intelligent mitigation alert generation.
 
 **Key Features:**
-* **Risk Identification**: Automated and manual risk registration
-* **Risk Scoring**: Likelihood and impact assessment algorithms
-* **Mitigation Tracking**: Action item management and progress monitoring
-* **Risk Reporting**: Executive dashboards and detailed risk analytics
+* **Risk Identification**: Automated and manual risk registration with detailed risk descriptions
+* **Risk Scoring**: Likelihood and impact assessment algorithms with automated risk rating calculation
+* **Mitigation Tracking**: Action item management and progress monitoring with target mitigation dates
+* **Mitigation Alerts**: Automated alert generation for upcoming and overdue risk mitigation deadlines
+  * **Upcoming Alerts**: Configurable alert window (default: 10 days) for risks approaching mitigation deadlines
+  * **Overdue Alerts**: Automatic identification of risks past their target mitigation dates
+  * **Alert Metrics**: Real-time dashboard showing total, actionable, upcoming, and overdue risk counts
+  * **Alert Management**: Pause/resume mitigation alerts for individual risks with audit trail
+  * **Risk Prioritization**: Automatic prioritization based on risk rating and mitigation deadline proximity
+* **Risk Reporting**: Executive dashboards and detailed risk analytics with mitigation status tracking
+* **Compliance Mapping**: Direct mapping of risks to compliance controls for integrated risk-compliance management
 
 
 #### 📹 Risk Management Demo
 
-https://github.com/user-attachments/assets/3a842262-d132-4ba6-86c8-47c3a0dfc8e9
+https://github.com/user-attachments/assets/768a60a9-6bf7-4524-800e-28213096e42e
 
 ### 3. Privacy Detection & Analysis
 
@@ -305,7 +320,7 @@ https://github.com/user-attachments/assets/3a842262-d132-4ba6-86c8-47c3a0dfc8e9
 
 #### 📹 Privacy Detection Demo
 
-https://github.com/user-attachments/assets/df6f5672-6daf-4c2f-9b1d-b32bb4a7c52e
+https://github.com/user-attachments/assets/3e51d776-b43e-4ed1-b9dc-f5b10459f003
 
 **Key Features:**
 * **PIA Generation**: Automated Privacy Impact Assessment creation
@@ -318,7 +333,89 @@ https://github.com/user-attachments/assets/df6f5672-6daf-4c2f-9b1d-b32bb4a7c52e
 
 ### Privacy Detection System Architecture
 
-<img width="2200" height="850" alt="image" src="https://github.com/user-attachments/assets/6256e840-46ac-40a2-820b-b2cc498366a1" />
+
+---
+
+### 4. AI-Powered Services
+
+**Intelligent Document Processing & Compliance Automation**
+
+[ComplianceShield](https://complianceshield.zeroshield.ai/) includes advanced AI-powered services that automate document validation, compliance analysis, and evidence generation using on-premises Large Language Models (LLM).
+
+#### 📹 AI Analysis Demo
+
+https://github.com/user-attachments/assets/bcbdba27-664d-4a38-beb6-416c10c27972
+
+**Key Features:**
+
+#### Digital Signature Validation
+* **Dual Validation Approach**: Combines cryptographic X.509 certificate validation with LLM-powered intelligent analysis
+* **PDF Signature Analysis**: Validates Adobe Acrobat PDF digital signatures with comprehensive metadata extraction
+* **Certificate Management**: Extracts certificate bytes from PKCS#7 structures, validates expiration dates, and checks certificate chains
+* **Expiration Monitoring**: Automatically detects expired signatures and generates alerts for signatures expiring within 30 days
+* **Compliance Reporting**: Provides detailed validation reports with recommendations for signature compliance
+
+#### Document Compliance Analyzer
+* **Multi-Format Support**: Analyzes PDF, DOCX, and TXT documents for compliance mapping
+* **Framework Mapping**: Automatically maps document content to compliance frameworks (ISO 27001, GDPR, DPDPA, PCI DSS, SOC2, etc.)
+* **Compliance Scoring**: Provides percentage-based compliance scores for each framework clause and sub-clause
+* **Gap Analysis**: Identifies matched sections and compliance gaps with actionable recommendations
+* **PDF Report Generation**: Generates professionally formatted PDF reports with compliance mapping tables, proper text wrapping, and alternating row backgrounds
+
+#### Evidence Generator
+* **AI-Powered Suggestions**: Uses AWS Bedrock LLM to generate evidence suggestions for compliance controls
+* **Control-Specific Recommendations**: Provides tailored evidence recommendations based on framework, control number, and control description
+* **Sub-Control Mapping**: Generates evidence suggestions for both controls and sub-controls
+* **Compliance Context**: Considers framework-specific requirements when suggesting evidence types
+* **Integration**: Seamlessly integrates with compliance framework management for automated evidence collection
+
+**Technical Architecture:**
+* **On-Premises LLM**: Uses Ollama (llama3:8b) for signature validation and document analysis
+* **Cloud LLM Integration**: Uses AWS Bedrock for evidence generation
+* **GPU/CPU Auto-Detection**: Automatically optimizes performance based on available hardware
+* **Chunk-Based Processing**: Handles large documents efficiently with intelligent text chunking
+* **Secure Processing**: All processing done in-memory with automatic cleanup and no persistent storage
+
+### 5. Third-Party Risk Management (TPRM)
+
+**Comprehensive Vendor Risk Assessment & Management**
+
+[ComplianceShield](https://complianceshield.zeroshield.ai/) provides a complete Third-Party Risk Management solution for assessing, monitoring, and managing risks associated with vendors, suppliers, and business partners.
+
+#### 📹 TPRM Demo
+
+https://github.com/user-attachments/assets/d1b3e8b2-04ec-4aa3-817b-b2793c8dcda8
+
+**Key Features:**
+
+* **Vendor Assessment**: Comprehensive questionnaire-based assessment covering 15+ security and compliance questions
+* **Due Diligence Tracking**: Monitor vendor due diligence report status (Complete/Incomplete)
+* **Contract Management**: Track vendor contract states (Signed, Pending for renewal)
+* **Risk Scoring**: Automated percentage-based risk scoring based on questionnaire responses
+* **Assessment History**: Maintain complete assessment history with timestamps and audit trails
+* **PDF Report Generation**: Generate professional PDF assessment reports for vendor documentation
+* **Organization Scoping**: Multi-tenant support with organization-level data isolation
+
+**Assessment Areas Covered:**
+* Information Security Policy and Management
+* Security Certifications (ISO 27001, SOC 2, etc.)
+* Employee Background Verification
+* Data Encryption (at rest and in transit)
+* Multi-Factor Authentication (MFA)
+* Access Control Policies
+* Account De-provisioning
+* Logging and Monitoring
+* Incident Response Planning
+* Vulnerability Management
+* Data Retention & Disposal
+* Business Continuity & Disaster Recovery
+* Security Awareness Training
+* Subcontractor Management
+* Breach History and Reporting
+* Vendor Risk Assessment Processes
+* Contractual Security Requirements
+* Security Certification Reviews
+* Standardized Vendor Risk Management Programs
 
 ---
 
@@ -346,8 +443,8 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 **Risk Management Workflow:**
 
-* Register risks, assess likelihood and impact, assign mitigation actions, track progress, and generate risk reports.
-* Risk manager identifies new risks; dashboard highlights high-priority items and tracks mitigation progress.
+* Register risks, assess likelihood and impact, assign mitigation actions with target dates, track progress, and generate risk reports.
+* Risk manager identifies new risks; dashboard highlights high-priority items, tracks mitigation progress, and generates automated alerts for upcoming and overdue mitigation deadlines.
 
 **Privacy Assessment Workflow:**
 
@@ -366,7 +463,11 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 * Multi-framework compliance management for enterprise organizations
 * Continuous compliance monitoring (ISO, PCI, NIST, SOC2, GDPR, HIPAA)
-* Risk management and mitigation tracking
+* Risk management and mitigation tracking with automated deadline alerts
+* Third-party vendor risk assessment and management
+* Digital signature validation and certificate management
+* Automated document compliance analysis and reporting
+* AI-powered evidence generation for compliance controls
 * Privacy impact assessments and data protection compliance
 * Audit preparation and evidence management
 * Regulatory reporting and compliance documentation
@@ -392,6 +493,8 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 ### **AI & Security**
 
 - **RASA - Conversational AI framework**
+- **Ollama LLM** - On-premises Large Language Model for document analysis and signature validation
+- **AWS Bedrock** - Cloud-based LLM for evidence generation and intelligent suggestions
 - **Mobile Security Framework**
 - **Secrets Detection**
 - **SAST scanning**
