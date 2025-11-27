@@ -515,7 +515,7 @@ _Each compliance area is automatically mapped across frameworks using intelligen
 
 ### Microservices Architecture
 
-<img width="1136" height="1139" alt="Screenshot 2025-10-15 155021" src="https://github.com/user-attachments/assets/1dd6f2fe-017c-4b65-a819-de6f52d7f50e" />
+<img width="1795" height="1137" alt="image" src="https://github.com/user-attachments/assets/588cb815-fdc8-4843-90db-8163c1623037" />
 
 
 ---
