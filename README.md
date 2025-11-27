@@ -5,7 +5,7 @@
 
 ### _Advanced Governance, Risk & Compliance Management System_
 
-<img width="400" height="400" alt="Zero-Shield" src="https://github.com/user-attachments/assets/32e82d4b-2729-42e3-bdd6-40983173b4d8" />
+<img width="1598" height="438" alt="Zero-Shield" src="https://github.com/user-attachments/assets/3ada3ed3-0eb5-4ed0-83d8-940d0a2e27eb" />
 
 _[ComplianceShield](https://complianceshield.zeroshield.ai/), a part of <a href="https://zeroshield.ai">ZeroShield</a>_
 
