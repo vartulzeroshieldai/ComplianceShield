@@ -429,7 +429,7 @@ https://github.com/user-attachments/assets/d1b3e8b2-04ec-4aa3-817b-b2793c8dcda8
 
 **Enterprise-Grade Consent Management & Data Privacy Protection**
 
-[ComplianceShield](https://complianceshield.zeroshield.ai/) includes a comprehensive Consent Management Platform (CMP) that provides cookie consent management, PII detection, data masking, and DSAR (Data Subject Access Request) management for complete privacy compliance.
+[ComplianceShield](https://complianceshield.zeroshield.ai/) includes a fully compliant Consent Management Platform (CMP) designed to meet DPDPA, GDPR, CCPA/CPRA, and global privacy standards. It provides granular and purpose-based consent collection, cookie and tracking consent management, automated PII discovery, pseudonymization/data masking, data retention governance, and end-to-end DSAR (Data Subject Access Request) lifecycle management—including access, correction, portability, deletion, and opt-out/withdrawal of consent—ensuring lawful, transparent, and auditable processing of personal data across all systems.
 
 #### Key Features
 
