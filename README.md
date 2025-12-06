@@ -35,6 +35,7 @@ _[ComplianceShield](https://complianceshield.zeroshield.ai/), a part of <a href=
   * [3. Privacy Detection & Analysis](#3-privacy-detection--analysis)
   * [4. AI-Powered Services](#4-ai-powered-services)
   * [5. Third-Party Risk Management (TPRM)](#5-third-party-risk-management-tprm)
+  * [6. Consent Management Platform (CMP) & PII Prevention](#6-consent-management-platform-cmp--pii-prevention)
 * [Compliance Mapping](#compliance-mapping)
 * [Example Workflows & User Benefits](#example-workflows--user-benefits)
 * [Use Cases](#use-cases)
@@ -175,6 +176,7 @@ Empower organizations to rapidly identify, understand, and remediate compliance 
 * **AI-Powered Document Services** - Digital signature validation, document compliance analysis, and evidence suggestion generation
 * **Third-Party Risk Management** - Comprehensive vendor assessment and risk monitoring
 * **Evidence Management** with approval workflows and compliance mapping
+* **Consent Management Platform (CMP)** - Cookie consent banners, PII detection with PII Analyzer, data masking, and DSAR (Data Subject Access Requests) management
 * **Audit Management** with automated auditor assignment and review processes
   
 ---
@@ -420,6 +422,102 @@ https://github.com/user-attachments/assets/d1b3e8b2-04ec-4aa3-817b-b2793c8dcda8
 * Contractual Security Requirements
 * Security Certification Reviews
 * Standardized Vendor Risk Management Programs
+
+---
+
+### 6. Consent Management Platform (CMP) & PII Prevention
+
+**Enterprise-Grade Consent Management & Data Privacy Protection**
+
+[ComplianceShield](https://complianceshield.zeroshield.ai/) includes a comprehensive Consent Management Platform (CMP) that provides cookie consent management, PII detection, data masking, and DSAR (Data Subject Access Request) management for complete privacy compliance.
+
+#### Key Features
+
+**🍪 Consent Management**
+
+| Feature | Description |
+|---------|-------------|
+| **Consent Banners** | Customizable cookie consent banners with multiple display styles (Banner and Modal) |
+| **Cookie Management** | 12 utility functions for comprehensive cookie handling |
+| **Consent Tracking** | Automatic logging of user consent decisions |
+| **Multi-Language Support** | Localized consent banners for global compliance |
+| **Third-Party Integration** | Easy-to-embed JavaScript widget for any website |
+| **API-Key Authentication** | Secure API access with organization-scoped keys |
+
+**📋 DSAR Management**
+
+| Feature | Description |
+|---------|-------------|
+| **Request Intake** | Automated DSAR request collection and tracking |
+| **Workflow Automation** | Streamlined approval and fulfillment workflows |
+| **Data Export** | Comprehensive data subject data export capabilities |
+| **Audit Trail** | Complete audit logging for regulatory compliance |
+
+
+#### 📹 CMP Demo Video
+
+https://github.com/user-attachments/assets/40be466b-76ae-4527-a727-87ee19014176
+
+
+### CMP Architecture
+
+<img width="1266" height="785" alt="image" src="https://github.com/user-attachments/assets/99f7d880-20ff-40a9-bae1-4bef603c84de" />
+
+
+**🔍 PII Prevention & Detection**
+
+| Feature | Description |
+|---------|-------------|
+| **PII Analyzer** | Enterprise-grade PII detection engine |
+| **15+ PII Types Supported** | SSN, Credit Cards, Emails, Phone Numbers, Names, Addresses, and more |
+| **Risk Scoring** | Automated 0-100 risk score calculation for detected PII |
+| **Multiple Data Sources** | Scan databases, files, APIs, and log files |
+| **5 Masking Methods** | Redact, Hash, Mask, Encrypt, Replace |
+
+
+#### PII Types & Risk Scores
+
+| PII Type | Risk Score | Detection Method |
+|----------|------------|------------------|
+| SSN | 95 | Pattern + Context |
+| Credit Card | 98 | Luhn Algorithm |
+| Bank Account | 90 | Pattern Matching |
+| Passport | 85 | Pattern Matching |
+| Driver License | 80 | Pattern Matching |
+| Email | 60 | Pattern + Context |
+| Phone | 55 | Pattern Matching |
+| Person Name | 50 | NLP (spaCy) |
+| IP Address | 40 | Pattern Matching |
+| Location | 35 | NLP (spaCy) |
+
+#### Data Masking Methods
+
+| Method | Description | Example Output |
+|--------|-------------|----------------|
+| **Redact** | Complete removal | `[REDACTED]` |
+| **Hash** | SHA256 hash | `a1b2c3d4e5f6...` |
+| **Mask** | Partial display | `jo***@***.com` |
+| **Replace** | Custom replacement | `[REMOVED]` |
+| **Encrypt** | Reversible encryption | `encrypted_string` |
+
+
+#### 📹 PII Prevention and Data Masking Demo Video
+
+
+
+https://github.com/user-attachments/assets/69d8d47e-24cd-4a4e-ada0-b1550a30ff80
+
+
+
+### PII Prevention Architecture
+
+<img width="2209" height="446" alt="image" src="https://github.com/user-attachments/assets/327a3eac-bd41-423d-ba6a-3770ce63fabf" />
+
+**Integration Benefits:**
+* ✅ No code changes required - just add script tags
+* ✅ Automatic consent logging to ComplianceShield
+* ✅ Cookie preference persistence
+* ✅ Multi-language support
 
 ---
 
