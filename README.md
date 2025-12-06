@@ -511,7 +511,8 @@ https://github.com/user-attachments/assets/69d8d47e-24cd-4a4e-ada0-b1550a30ff80
 
 ### PII Prevention Architecture
 
-<img width="2209" height="446" alt="image" src="https://github.com/user-attachments/assets/327a3eac-bd41-423d-ba6a-3770ce63fabf" />
+<img width="2396" height="418" alt="image" src="https://github.com/user-attachments/assets/c6e07cad-379b-45b1-82bb-2b8875f7fa2c" />
+
 
 **Integration Benefits:**
 * ✅ No code changes required - just add script tags
