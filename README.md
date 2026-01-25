@@ -1,9 +1,9 @@
 
 <div align="center">
 
-# 🛡️ ComplianceShield
+# 🛡️ _ComplianceShield - Generative AI GRC Platform_
 
-### _Generative AI Advanced Governance System(55+ Compliances), Data Privacy, Consent Management, PII Identification & Masking(40+ Integrations)_
+### _Generative AI Advanced Governance System(55+ Compliances Readiness Program), Data Privacy, Consent Management, PII Identification & Masking(40+ Integrations)_
 
 <img width="365" height="100" alt="Zero-Shield" src="https://github.com/user-attachments/assets/ac395e39-3282-4acd-8534-3097f588c486" />
 
